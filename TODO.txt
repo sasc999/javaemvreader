@@ -64,3 +64,6 @@ SELECT APP by partial AID (partial name selection): see book 1 page 150
 ---brute force AIDs
 ---direct select AID
 ---select group of AIDs by using first n bytes of AID as DDF name
+
+
+Use PS/SC command to input PIN directly on terminals with embedded PIN PAD
