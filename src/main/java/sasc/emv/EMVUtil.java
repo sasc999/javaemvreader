@@ -143,7 +143,7 @@ public class EMVUtil {
         }
         if(cmd.length > 5){
             int lc = Util.byteToInt(cmd[4]);
-            if(lc < cmd.length-6 //Lc is less than payload(with Le) length 
+            if(lc < cmd.length-6 //Lc is less than payload(with Le) length
                     || lc > cmd.length-5 //Lc is larger than payload(no Le) length
                     ) {
                 throw new IllegalArgumentException("Lc was "+lc+", but payload length was "+(cmd.length-5) + " (Le presence unknown)");
@@ -156,7 +156,7 @@ public class EMVUtil {
                 return cmdWithLe;
             }
         }
-        
+
         //Le already present
         return cmd;
     }
@@ -190,7 +190,7 @@ public class EMVUtil {
     }
 
     //TODO split PSE/PPSE?
-    
+
     //PPSE (Book B):
     //If the Kernel Identifier (Tag '9F2A') is absent in the Directory Entry,
     //then Entry Point shall use a default value for the
@@ -424,7 +424,7 @@ public class EMVUtil {
             throw new SmartCardException("Error parsing ADF. Expected FCI Template. Data: " + Util.byteArrayToHexString(data));
         }
     }
-    
+
     private static void checkForProprietaryTagOrAddToUnhandled(EMVApplication app, BERTLV tlv) {
         Tag tagFound = EMVTags.get(app, tlv.getTag());
         if(tagFound != null) {
@@ -466,7 +466,7 @@ public class EMVUtil {
             //AIP (& AFL) WITH delimiters (that is, including, including tag and length) and possibly other BER TLV tags (that might be proprietary)
             while (valueBytesBis.available() >= 2) {
                 tlv = TLVUtil.getNextTLV(valueBytesBis);
-                
+
 //   Example:
 //                77 4e -- Response Message Template Format 2
 //                    82 02 -- Application Interchange Profile
@@ -486,7 +486,7 @@ public class EMVUtil {
 //                             30 00 (BINARY)
 //                    5f 20 0f -- Cardholder Name
 //                             56 49 53 41 20 43 41 52 44 48 4f 4c 44 45 52 (=VISA CARDHOLDER)
-                
+
                 if (tlv.getTag().equals(EMVTags.APPLICATION_INTERCHANGE_PROFILE)) {
                     byte[] aipBytes = tlv.getValueBytes();
                     ApplicationInterchangeProfile aip = new ApplicationInterchangeProfile(aipBytes[0], aipBytes[1]);
@@ -707,6 +707,10 @@ public class EMVUtil {
                 EMVTerminal.getTerminalVerificationResults().setDDAFailed(true);
             }
         } else if (tlv.getTag().equals(EMVTags.RESPONSE_MESSAGE_TEMPLATE_2)) {
+			if (!app.getIssuerPublicKeyCertificate().validate() || !app.getICCPublicKeyCertificate().validate()) {
+			    EMVTerminal.getTerminalVerificationResults().setDDAFailed(true);
+			    return;
+            }
             //AIP & AFL WITH delimiters (that is, including, including tag and length) and possibly other BER TLV tags (that might be proprietary)
             while (valueBytesBis.available() >= 2) {
                 tlv = TLVUtil.getNextTLV(valueBytesBis);
@@ -747,7 +751,7 @@ public class EMVUtil {
 
 //        System.out.println(EMVUtil.prettyPrintAPDUResponse(Util.fromHexString("6F388407 A0000000 031010A5 2D500B56 69736144 616E6B6F 72748701 015F2D08 6461656E 6E6F7376 9F110101 9F120B56 69736144 616E6B6F 7274")));
 
-        
+
     }
 
     private static void printCmdHdr(String hex){
