@@ -1,0 +1,5 @@
+# RID; Applicant; Country
+A000000456; European Commission; EU
+A000000476; Google (Google Wallet)?; US
+A000000527; Yubico; SE
+# END

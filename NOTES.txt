@@ -1,0 +1,71 @@
+Notes about codesigning & timestamping:
+
+Sign and timestamp JAR: 
+It is a good practice to timestamp anything that you sign. Popular timestamping authority URLs include:
+
+http://timestamp.verisign.com
+http://tsa.starfieldtech.com
+https://timestamp.geotrust.com/tsa
+
+http://www.oracle.com/technetwork/java/javase/overview/ria-checklist-2055184.html
+https://blogs.oracle.com/thejavatutorials/entry/signing_a_jnlp_file
+
+When your signed file provides a timestamp, Java is able to use that information within the PKIXParameters and determine:
+
+1. Do I trust this timestamp authority to act as a notary?
+2. Is the signature date before the certificate's time of expiration?
+3. Based on Certificate Revocation Lists, was this certificate valid on or before the signature date?
+
+If the answer to all questions is yes, then the signature is deemed valid even if the certificate has expired.
+
+
+Good rundown on EMV:
+http://www.emv411.com/2012/07/17/what-are-chip-applications-and-how-are-they-used
+
+Linux SmartcardIO:
+http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=500762
+
+SmartcardIO OSX Support: 
+-http://forums.sun.com/thread.jspa?threadID=5424569
+-http://smartcardservices.macosforge.org/trac/ticket/6
+
+EMV Security:
+http://www.chipandspin.co.uk/
+
+EMV Tutorial
+http://www.openscdp.org/scripts/tutorial/emv/index.html
+
+
+
+
+Example card file/directory structure:
+
+ROOT(MF)
+-ADF
+--AEF
+--AEF
+-DDF
+--ADF
+---AEF
+
+Directories on card (optional):
+DDF (FCI with SFI of directory)
+--Directory
+
+
+PSE = If present, contains DDF 1.PAY.SYS.DDF01
+ADF = Application Definition File (response to SELECT APP AID)
+DDF = 1PAY.SYS.DDF01 Describes (some or all) DFs within the card, may or may not be the MF
+SFI = File Index used for the selection of AEFs
+AEF = file that can contain one or more records
+
+Any ADF or DDF in the card is referenced by its DF name
+ADF corresponds to the AID or contains the AID as the beginning of the DF name. Each DF name shall be unique within a given card.
+
+SFIs are used for the selection of AEFs. Any AEF within a given application is referenced by a SFI coded on 5 bits in the range 1 to 30. A SFI shall be unique within an application.
+
+After a successful SELECT command, the file system path is set to the selected PSE/DDF/ADF.
+Subsequent commands apply to AEFs associated with the selected PSE, DDF, or ADF using SFIs.
+
+The directory is not required to have entries for all DDFs and ADFs in the card, and following the chain of DDFs may not reveal all applications supported by the card. However, if the PSE exists, only applications that are revealed by following the chain of DDFs beginning with the initial directory can be assured of international interoperability.
+

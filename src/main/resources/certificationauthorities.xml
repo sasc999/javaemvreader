@@ -1,0 +1,107 @@
+<CertificationAuthorities>
+    <CA RID="A0 00 00 00 03">
+        <Name>VISA</Name>
+        <Description></Description>
+        <PublicKeys>
+            <PublicKey index="1">
+                <Description>1024-Bit VSDC CA Public Key</Description>
+                <ExpirationDate>31 December 2009</ExpirationDate>
+                <Exponent>03</Exponent>
+                <Modulus><!-- Hex encoded byte string. Case insensitive. Spaces are removed when parsed -->
+                    C6 96 03 42 13 D7 D8 54 69 84 57 9D 1D 0F 0E A5
+                    19 CF F8 DE FF C4 29 35 4C F3 A8 71 A6 F7 18 3F
+                    12 28 DA 5C 74 70 C0 55 38 71 00 CB 93 5A 71 2C
+                    4E 28 64 DF 5D 64 BA 93 FE 7E 63 E7 1F 25 B1 E5
+                    F5 29 85 75 EB E1 C6 3A A6 17 70 69 17 91 1D C2
+                    A7 5A C2 8B 25 1C 7E F4 0F 23 65 91 24 90 B9 39
+                    BC A2 12 4A 30 A2 8F 54 40 2C 34 AE CA 33 1A B6
+                    7E 1E 79 B2 85 DD 57 71 B5 D9 FF 79 EA 63 0B 75
+                </Modulus>
+                <HashAlgorithmIndicator>01</HashAlgorithmIndicator>
+                <Hash>
+                    D3 4A 6A 77 60 11 C7 E7 CE 3A EC 5F 03 AD 2F 8C
+                    FC 55 03 CC
+                </Hash>
+                <PublicKeyAlgorithmIndicator>01</PublicKeyAlgorithmIndicator>
+            </PublicKey>
+            <PublicKey index="7">
+                <Description>1152-Bit VSDC CA Public Key</Description>
+                <ExpirationDate>31 December 2015</ExpirationDate>
+                <Exponent>03</Exponent>
+                <Modulus>
+                    A8 9F 25 A5 6F A6 DA 25 8C 8C A8 B4 04 27 D9 27
+                    B4 A1 EB 4D 7E A3 26 BB B1 2F 97 DE D7 0A E5 E4
+                    48 0F C9 C5 E8 A9 72 17 71 10 A1 CC 31 8D 06 D2
+                    F8 F5 C4 84 4A C5 FA 79 A4 DC 47 0B B1 1E D6 35
+                    69 9C 17 08 1B 90 F1 B9 84 F1 2E 92 C1 C5 29 27
+                    6D 8A F8 EC 7F 28 49 20 97 D8 CD 5B EC EA 16 FE
+                    40 88 F6 CF AB 4A 1B 42 32 8A 1B 99 6F 92 78 B0
+                    B7 E3 31 1C A5 EF 85 6C 2F 88 84 74 B8 36 12 A8
+                    2E 4E 00 D0 CD 40 69 A6 78 31 40 43 3D 50 72 5F
+                </Modulus>
+                <HashAlgorithmIndicator>01</HashAlgorithmIndicator>
+                <Hash>
+                    B4 BC 56 CC 4E 88 32 49 32 CB C6 43 D6 89 8F 6F
+                    E5 93 B1 72
+                </Hash>
+                <PublicKeyAlgorithmIndicator>01</PublicKeyAlgorithmIndicator>
+            </PublicKey>
+            <PublicKey index="8">
+                <Description>1408-Bit VSDC CA Public Key</Description>
+                <ExpirationDate>31 December 2018</ExpirationDate>
+                <Exponent>03</Exponent>
+                <Modulus>
+                    D9 FD 6E D7 5D 51 D0 E3 06 64 BD 15 70 23 EA A1
+                    FF A8 71 E4 DA 65 67 2B 86 3D 25 5E 81 E1 37 A5
+                    1D E4 F7 2B CC 9E 44 AC E1 21 27 F8 7E 26 3D 3A
+                    F9 DD 9C F3 5C A4 A7 B0 1E 90 70 00 BA 85 D2 49
+                    54 C2 FC A3 07 48 25 DD D4 C0 C8 F1 86 CB 02 0F
+                    68 3E 02 F2 DE AD 39 69 13 3F 06 F7 84 51 66 AC
+                    EB 57 CA 0F C2 60 34 45 46 98 11 D2 93 BF EF BA
+                    FA B5 76 31 B3 DD 91 E7 96 BF 85 0A 25 01 2F 1A
+                    E3 8F 05 AA 5C 4D 6D 03 B1 DC 2E 56 86 12 78 59
+                    38 BB C9 B3 CD 3A 91 0C 1D A5 5A 5A 92 18 AC E0
+                    F7 A2 12 87 75 26 82 F1 58 32 A6 78 D6 E1 ED 0B
+                </Modulus>
+                <HashAlgorithmIndicator>01</HashAlgorithmIndicator>
+                <Hash>
+                    20 D2 13 12 69 55 DE 20 5A DC 2F D2 82 2B D2 2D
+                    E2 1C F9 A8
+                </Hash>
+                <PublicKeyAlgorithmIndicator>01</PublicKeyAlgorithmIndicator>
+            </PublicKey>
+            <PublicKey index="9">
+                <Description>1984-Bit VSDC CA Public Key</Description>
+                <ExpirationDate>31 December 2018</ExpirationDate>
+                <Exponent>03</Exponent>
+                <Modulus>
+                    9D 91 22 48 DE 0A 4E 39 C1 A7 DD E3 F6 D2 58 89
+                    92 C1 A4 09 5A FB D1 82 4D 1B A7 48 47 F2 BC 49
+                    26 D2 EF D9 04 B4 B5 49 54 CD 18 9A 54 C5 D1 17
+                    96 54 F8 F9 B0 D2 AB 5F 03 57 EB 64 2F ED A9 5D
+                    39 12 C6 57 69 45 FA B8 97 E7 06 2C AA 44 A4 AA
+                    06 B8 FE 6E 3D BA 18 AF 6A E3 73 8E 30 42 9E E9
+                    BE 03 42 7C 9D 64 F6 95 FA 8C AB 4B FE 37 68 53
+                    EA 34 AD 1D 76 BF CA D1 59 08 C0 77 FF E6 DC 55
+                    21 EC EF 5D 27 8A 96 E2 6F 57 35 9F FA ED A1 94
+                    34 B9 37 F1 AD 99 9D C5 C4 1E B1 19 35 B4 4C 18
+                    10 0E 85 7F 43 1A 4A 5A 6B B6 51 14 F1 74 C2 D7
+                    B5 9F DF 23 7D 6B B1 DD 09 16 E6 44 D7 09 DE D5
+                    64 81 47 7C 75 D9 5C DD 68 25 46 15 F7 74 0E C0
+                    7F 33 0A C5 D6 7B CD 75 BF 23 D2 8A 14 08 26 C0
+                    26 DB DE 97 1A 37 CD 3E F9 B8 DF 64 4A C3 85 01
+                    05 01 EF C6 50 9D 7A 41
+                </Modulus>
+                <HashAlgorithmIndicator>01</HashAlgorithmIndicator>
+                <Hash>
+                    1F F8 0A 40 17 3F 52 D7 D2 7E 0F 26 A1 46 A1 C8
+                    CC B2 90 46
+                </Hash>
+                <PublicKeyAlgorithmIndicator>01</PublicKeyAlgorithmIndicator>
+            </PublicKey>
+        </PublicKeys>
+    </CA>
+
+    <!-- Official MASTERCARD / Europay ? -->
+
+</CertificationAuthorities>

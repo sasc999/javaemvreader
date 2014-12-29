@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.6+" codebase="" href="$outputFile">
+ <information>
+    <title>Java EMV Reader</title>
+    <vendor>sasc</vendor>
+    <homepage href="http://code.google.com/p/javaemvreader"/>
+    <description kind="one-line">Java EMV Reader</description>
+    <description kind="short">Java EMV Reader - a java tool for reading data from an EMV card</description>
+    <description kind="tooltip">Java EMV Reader - a java tool for reading data from an EMV card</description>
+    <!--<icon href="http://code.google.com/p/javaemvreader/jnlp.jpg" kind="default"/>-->
+    <shortcut online="false"><desktop/><menu submenu="Java EMV Reader"/></shortcut>
+    <offline-allowed/>
+ </information>
+ <security>
+ <all-permissions/>
+ </security>
+ <resources>
+    <j2se version="1.6+" initial-heap-size="32m" max-heap-size="128m" />
+    <property name="jnlp.versionEnabled" value="true"/>
+    $dependencies
+ </resources>
+ <application-desc main-class="$mainClass">
+ </application-desc>
+</jnlp>

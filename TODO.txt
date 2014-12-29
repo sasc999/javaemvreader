@@ -1,0 +1,66 @@
+TODO:
+
+-Generic test framework for Smartcards (including SC simulator and terminal emulator) jcardsim+applet (init,personalize,transact) EMVPersonalizer.setXXX
+-Implement the (full) EMV MasterCard(M/chip/Paypass) and VISA test specifications?
+-Remote terminal (for debugging)
+
+
+TODO:
+
+----------------------------
+TODO EMV: (1st priority)
+----------------------------
+
+EMVTerminal.getCurrentTransaction().getTransactionStatusInformation();
+EMVTerminal.getCurrentTransaction().getTerminalVerificationResults();
+
+EMVTerminal.getCapabilities()?
+
+EMVTerminal.startNewTransaction();
+
+EMVTerminal.reset();
+
+app.setTransaction(t);
+
+use RID object instead of passing bytes
+
+BERTLV.create?
+
+Handle RID/Issuer proprietary tags (EMV 4.2 Book 3, note 9, page 96):
+Payment system-specific tags are interpreted within the context of the application RID. 
+Issuer-specific tags are interpreted within the context of the Issuer Identification Number (as defined in ISO/IEC 7812-1). 
+Additionally, to satisfy business requirements such as proprietary domestic processing, 
+multiple issuers may agree on the definition of a private class tag. 
+Such tags may be interpreted in the context of other data such as Issuer Country Code.
+
+
+Application selection: PSE example (when PSE present)
+-SELECT DDF 1PAY.SYS.DDF01 of PSE to find Payment APPs (returns SFI of Directory Elementary File/PSD) [This establishes the PSE and makes the initial Payment System Directory accessible]
+--if returns SW != 9000 -> use "list of AIDs"-method (book 1, side 162), else continue
+-for recnums 1-X (until SW==6A83): READ RECORD in Directory Elementary File/Payment system directory (returns record) 
+--record listing ADF/DDFs (available apps)
+---If no records found -> use "list of AIDs"-method
+-SELECT desired APP (based on known AIDs, or on priority, or just interate all apps).
+-GET PROCESSING OPTIONS 
+--returns available Files (SFI records)
+--Iterate ALL files
+--Collect data from files
+--Use collected data to perform desired operation (transaction)
+
+TVR page 187 book 3
+         132
+TVR set by Terminal - sent in CDOL to GENERATE AC
+The terminal shall also check the Last Online ATC Register for a zero value. If it is zero, the terminal shall set the "New card" bit in the TVR to 1.
+Issuer Action Codes - Interpreted as TVR bytes
+
+
+
+Check out MasterCard Paypass M/Chip spec (only available to licenced customers)
+
+SELECT APP by partial AID (partial name selection): see book 1 page 150
+
+
+-Alternatives 
+---brute force AIDs
+---direct select AID
+---select group of AIDs by using first n bytes of AID as DDF name

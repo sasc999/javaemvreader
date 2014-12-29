@@ -1,0 +1,576 @@
+<!-- Official TEST Public Keys -->
+<CertificationAuthorities>
+    <CA RID="a0 00 00 00 03">
+        <Name>VISA</Name>
+        <Description>VISA Test CA</Description>
+        <PublicKeys>
+            <PublicKey index="149"> <!-- 0x95 -->
+                <Description>1152-Bit TEST CA Public Key</Description>
+                <ExpirationDate>31 Dec 2999</ExpirationDate>
+                <Exponent>03</Exponent>
+                <Modulus>
+                    be 9e 1f a5 e9 a8 03 85 29 99 c4 ab 43 2d b2 86
+                    00 dc d9 da b7 6d fa aa 47 35 5a 0f e3 7b 15 08
+                    ac 6b f3 88 60 d3 c6 c2 e5 b1 2a 3c aa f2 a7 00
+                    5a 72 41 eb aa 77 71 11 2c 74 cf 9a 06 34 65 2f
+                    bc a0 e5 98 0c 54 a6 47 61 ea 10 1a 11 4e 0f 0b
+                    55 72 ad d5 7d 01 0b 7c 9c 88 7e 10 4c a4 ee 12
+                    72 da 66 d9 97 b9 a9 0b 5a 6d 62 4a b6 c5 7e 73
+                    c8 f9 19 00 0e b5 f6 84 89 8e f8 c3 db ef b3 30
+                    c6 26 60 be d8 8e a7 8e 90 9a ff 05 f6 da 62 7b
+                </Modulus>
+                <HashAlgorithmIndicator>01</HashAlgorithmIndicator>
+                <Hash>
+                    ee 15 11 ce c7 10 20 a9 b9 04 43 b3 7b 1d 5f 6e
+                    70 30 30 f6
+                </Hash>
+                <PublicKeyAlgorithmIndicator>01</PublicKeyAlgorithmIndicator>
+            </PublicKey>
+            <PublicKey index="146"> <!-- 0x92 -->
+                <Description>TEST key</Description>
+                <ExpirationDate>31 Dec 2999</ExpirationDate>
+                <Exponent>03</Exponent>
+                <Modulus>
+                    99 6a f5 6f 56 91 87 d0 92 93 c1 48 10 45 0e d8
+                    ee 33 57 39 7b 18 a2 45 8e fa a9 2d a3 b6 df 65
+                    14 ec 06 01 95 31 8f d4 3b e9 b8 f0 cc 66 9e 3f
+                    84 40 57 cb dd f8 bd a1 91 bb 64 47 3b c8 dc 9a
+                    73 0d b8 f6 b4 ed e3 92 41 86 ff d9 b8 c7 73 57
+                    89 c2 3a 36 ba 0b 8a f6 53 72 eb 57 ea 5d 89 e7
+                    d1 4e 9c 7b 6b 55 74 60 f1 08 85 da 16 ac 92 3f
+                    15 af 37 58 f0 f0 3e bd 3c 5c 2c 94 9c ba 30 6d
+                    b4 4e 6a 2c 07 6c 5f 67 e2 81 d7 ef 56 78 5d c4
+                    d7 59 45 e4 91 f0 19 18 80 0a 9e 2d c6 6f 60 08
+                    05 66 ce 0d af 8d 17 ea d4 6a d8 e3 0a 24 7c 9f
+                </Modulus>
+                <HashAlgorithmIndicator>01</HashAlgorithmIndicator>
+                <Hash>
+                    42 9c 95 4a 38 59 ce f9 12 95 f6 63 c9 63 e5 82
+                    ed 6e b2 53
+                </Hash>
+                <PublicKeyAlgorithmIndicator>01</PublicKeyAlgorithmIndicator>
+            </PublicKey>
+            <PublicKey index="148"> <!-- 0x94 -->
+                <Description>TEST key</Description>
+                <ExpirationDate>31 Dec 2999</ExpirationDate>
+                <Exponent>03</Exponent>
+                <Modulus>
+                    ac d2 b1 23 02 ee 64 4f 3f 83 5a bd 1f c7 a6 f6
+                    2c ce 48 ff ec 62 2a a8 ef 06 2b ef 6f b8 ba 8b
+                    c6 8b bf 6a b5 87 0e ed 57 9b c3 97 3e 12 13 03
+                    d3 48 41 a7 96 d6 dc bc 41 db f9 e5 2c 46 09 79
+                    5c 0c cf 7e e8 6f a1 d5 cb 04 10 71 ed 2c 51 d2
+                    20 2f 63 f1 15 6c 58 a9 2d 38 bc 60 bd f4 24 e1
+                    77 6e 2b c9 64 80 78 a0 3b 36 fb 55 43 75 fc 53
+                    d5 7c 73 f5 16 0e a5 9f 3a fc 53 98 ec 7b 67 75
+                    8d 65 c9 bf f7 82 8b 6b 82 d4 be 12 4a 41 6a b7
+                    30 19 14 31 1e a4 62 c1 9f 77 1f 31 b3 b5 73 36
+                    00 0d ff 73 2d 3b 83 de 07 05 2d 73 03 54 d2 97
+                    be c7 28 71 dc cf 0e 19 3f 17 1a ba 27 ee 46 4c
+                    6a 97 69 09 43 d5 9b da bb 2a 27 eb 71 ce eb da
+                    fa 11 76 04 64 78 fd 62 fe c4 52 d5 ca 39 32 96
+                    53 0a a3 f4 19 27 ad fe 43 4a 2d f2 ae 30 54 f8
+                    84 06 57 a2 6e 0f c6 17
+                </Modulus>
+                <HashAlgorithmIndicator>01</HashAlgorithmIndicator>
+                <Hash>
+                    c4 a3 c4 3c cf 87 32 7d 13 6b 80 41 60 e4 7d 43
+                    b6 0e 6e 0f
+                </Hash>
+                <PublicKeyAlgorithmIndicator>01</PublicKeyAlgorithmIndicator>
+            </PublicKey>
+            <PublicKey index="153"> <!-- 0x99 -->
+                <Description>TEST key</Description>
+                <ExpirationDate>31 Dec 2999</ExpirationDate>
+                <Exponent>03</Exponent>
+                <Modulus>
+                    ab 79 fc c9 52 08 96 96 7e 77 6e 64 44 4e 5d cd
+                    d6 e1 36 11 87 4f 39 85 72 25 20 42 52 95 ee a4
+                    bd 0c 27 81 de 7f 31 cd 3d 04 1f 56 5f 74 73 06
+                    ee d6 29 54 b1 7e da ba 3a 6c 5b 85 a1 de 1b eb
+                    9a 34 14 1a f3 8f cf 82 79 c9 de a0 d5 a6 71 0d
+                    08 db 41 24 f0 41 94 55 87 e2 03 59 ba b4 7b 75
+                    75 ad 94 26 2d 4b 25 f2 64 af 33 de dc f2 8e 09
+                    61 5e 93 7d e3 2e dc 03 c5 44 45 fe 7e 38 27 77
+                </Modulus>
+                <HashAlgorithmIndicator>01</HashAlgorithmIndicator>
+                <Hash>
+                    4a bf fd 6b 1c 51 21 2d 05 55 2e 43 1c 5b 17 00
+                    7d 2f 5e 6d
+                </Hash>
+                <PublicKeyAlgorithmIndicator>01</PublicKeyAlgorithmIndicator>
+            </PublicKey>
+        </PublicKeys>
+    </CA>
+    <CA RID="b0 12 34 56 78">
+        <Name>M/Chip_TEST</Name>
+        <Description>Test CA from EXTERNALPayPassMChip-CardVendorTestingv1.0-FINALallannexes.pdf</Description>
+        <PublicKeys>
+            <PublicKey index="243"> <!-- 0xf3 -->
+                <Description>1152-Bit M/Chip TEST CA Public Key</Description>
+                <ExpirationDate>31 Dec 2999</ExpirationDate>
+                <Exponent>03</Exponent>
+                <Modulus>
+                    98 f0 c7 70 f2 38 64 c2 e7 66 df 02 d1 e8 33 df
+                    f4 ff e9 2d 69 6e 16 42 f0 a8 8c 56 94 c6 47 9d
+                    16 db 15 37 bf e2 9e 4f dc 6e 6e 8a fd 1b 0e b7
+                    ea 01 24 72 3c 33 31 79 bf 19 e9 3f 10 65 8b 2f
+                    77 6e 82 9e 87 da ed a9 c9 4a 8b 33 82 19 9a 35
+                    0c 07 79 77 c9 7a ff 08 fd 11 31 0a c9 50 a7 2c
+                    3c a5 00 2e f5 13 fc cc 28 6e 64 6e 3c 53 87 53
+                    5d 50 95 14 b3 b3 26 e1 23 4f 9c b4 8c 36 dd d4
+                    4b 41 6d 23 65 40 34 a6 6f 40 3b a5 11 c5 ef a3
+                </Modulus>
+                <HashAlgorithmIndicator>01</HashAlgorithmIndicator>
+                <Hash>
+                    13 aa e8 50 31 78 05 d1 ea 97 45 3f e3 60 57 c5
+                    7d d6 52 8b
+                </Hash>
+                <PublicKeyAlgorithmIndicator>01</PublicKeyAlgorithmIndicator>
+            </PublicKey>
+            <PublicKey index="245"> <!-- 0xf5 -->
+                <Description>1984-Bit TEST CA Public Key</Description>
+                <ExpirationDate>31 Dec 2999</ExpirationDate>
+                <Exponent>01 00 01</Exponent>
+                <Modulus>
+                    a6 e6 fb 72 17 95 06 f8 60 cc ca 8c 27 f9 9c ec
+                    d9 4c 7d 4f 31 91 d3 03 bb ee 37 48 1c 7a a1 5f
+                    23 3b a7 55 e9 e4 37 63 45 a9 a6 7e 79 94 bd c1
+                    c6 80 bb 35 22 d8 c9 3e b0 cc c9 1a d3 1a d4 50
+                    da 30 d3 37 66 2d 19 ac 03 e2 b4 ef 5f 6e c1 82
+                    82 d4 91 e1 97 67 d7 b2 45 42 df de ff 6f 62 18
+                    55 03 53 20 69 bb b3 69 e3 bb 9f b1 9a c6 f1 c3
+                    0b 97 d2 49 ee e7 64 e0 ba c9 7f 25 c8 73 d9 73
+                    95 3e 51 53 a4 20 64 bb fa bf d0 6a 4b b4 86 86
+                    0b f6 63 74 06 c9 fc 36 81 3a 4a 75 f7 5c 31 cc
+                    a9 f6 9f 8d e5 9a de ce f6 bd e7 e0 78 00 fc be
+                    03 5d 31 76 af 84 73 e2 3e 9a a3 df ee 22 11 96
+                    d1 14 83 02 67 7c 72 0c fe 25 44 a0 3d b5 53 e7
+                    f1 b8 42 7b a1 cc 72 b0 f2 9b 12 df ef 4c 08 1d
+                    07 6d 35 3e 71 88 0a ad ff 38 63 52 af 0a b7 b2
+                    8e d4 9e 1e 67 2d 11 f9
+                </Modulus>
+                <HashAlgorithmIndicator>01</HashAlgorithmIndicator>
+                <Hash>
+                    b6 e5 63 2c 03 3b 9a be b9 a8 86 c9 da 0b a9 40
+                    30 43 2f 2f
+                </Hash>
+                <PublicKeyAlgorithmIndicator>01</PublicKeyAlgorithmIndicator>
+            </PublicKey>
+        </PublicKeys>
+    </CA>
+    <CA RID="a0 00 00 00 04">
+        <Name>MasterCard</Name>
+        <Description></Description>
+        <PublicKeys>
+            <PublicKey index="239"> <!-- 0xef -->
+                <Description>TEST key</Description>
+                <ExpirationDate>31 Dec 2999</ExpirationDate>
+                <Exponent>03</Exponent>
+                <Modulus>
+                    a1 91 cb 87 47 3f 29 34 9b 5d 60 a8 8b 3e ae e0
+                    97 3a a6 f1 a0 82 f3 58 d8 49 fd df f9 c0 91 f8
+                    99 ed a9 79 2c af 09 ef 28 f5 d2 24 04 b8 8a 22
+                    93 ee bb c1 94 9c 43 be a4 d6 0c fd 87 9a 15 39
+                    54 4e 09 e0 f0 9f 60 f0 65 b2 bf 2a 13 ec c7 05
+                    f3 d4 68 b9 d3 3a e7 7a d9 d3 f1 9c a4 0f 23 dc
+                    f5 eb 7c 04 dc 8f 69 eb a5 65 b1 eb cb 46 86 cd
+                    27 47 85 53 0f f6 f6 e9 ee 43 aa 43 fd b0 2c e0
+                    0d ae c1 5c 7b 8f d6 a9 b3 94 ba ba 41 9d 3f 6d
+                    c8 5e 16 56 9b e8 e7 69 89 68 8e fe a2 df 22 ff
+                    7d 35 c0 43 33 8d ea a9 82 a0 2b 86 6d e5 32 85
+                    19 eb bc d6 f0 3c dd 68 66 73 84 7f 84 db 65 1a
+                    b8 6c 28 cf 14 62 56 2c 57 7b 85 35 64 a2 90 c8
+                    55 6d 81 85 31 26 8d 25 cc 98 a4 cc 6a 0b df ff
+                    da 2d cc a3 a9 4c 99 85 59 e3 07 fd df 91 50 06
+                    d9 a9 87 b0 7d da eb 3b
+                </Modulus>
+                <HashAlgorithmIndicator>01</HashAlgorithmIndicator>
+                <Hash>
+                    21 76 6e bb 0e e1 22 af b6 5d 78 45 b7 3d b4 6b
+                    ab 65 42 7a
+                </Hash>
+                <PublicKeyAlgorithmIndicator>01</PublicKeyAlgorithmIndicator>
+            </PublicKey>
+            <PublicKey index="241"> <!-- 0xf1 -->
+                <Description>TEST key</Description>
+                <ExpirationDate>31 Dec 2999</ExpirationDate>
+                <Exponent>03</Exponent>
+                <Modulus>
+                    a0 dc f4 bd e1 9c 35 46 b4 b6 f0 41 4d 17 4d de
+                    29 4a ab bb 82 8c 5a 83 4d 73 aa e2 7c 99 b0 b0
+                    53 a9 02 78 00 72 39 b6 45 9f f0 bb cd 7b 4b 9c
+                    6c 50 ac 02 ce 91 36 8d a1 bd 21 aa ea db c6 53
+                    47 33 7d 89 b6 8f 5c 99 a0 9d 05 be 02 dd 1f 8c
+                    5b a2 0e 2f 13 fb 2a 27 c4 1d 3f 85 ca d5 cf 66
+                    68 e7 58 51 ec 66 ed bf 98 85 1f d4 e4 2c 44 c1
+                    d5 9f 59 84 70 3b 27 d5 b9 f2 1b 8f a0 d9 32 79
+                    fb bf 69 e0 90 64 29 09 c9 ea 27 f8 98 95 95 41
+                    aa 67 57 f5 f6 24 10 4f 6e 1d 3a 95 32 f2 a6 e5
+                    15 15 ae ad 1b 43 b3 d7 83 50 88 a2 fa fa 7b e7
+                </Modulus>
+                <HashAlgorithmIndicator>01</HashAlgorithmIndicator>
+                <Hash>
+                    d8 e6 8d a1 67 ab 5a 85 d8 c3 d5 5e cb 9b 05 17
+                    a1 a5 b4 bb
+                </Hash>
+                <PublicKeyAlgorithmIndicator>01</PublicKeyAlgorithmIndicator>
+            </PublicKey>
+            <PublicKey index="248"> <!-- 0xf8 -->
+                <Description>TEST key</Description>
+                <ExpirationDate>31 Dec 2999</ExpirationDate>
+                <Exponent>03</Exponent>
+                <Modulus>
+                    a1 f5 e1 c9 bd 86 50 bd 43 ab 6e e5 6b 89 1e f7
+                    45 9c 0a 24 fa 84 f9 12 7d 1a 6c 79 d4 93 0f 6d
+                    b1 85 2e 25 10 f1 8b 61 cd 35 4d b8 3a 35 6b d1
+                    90 b8 8a b8 df 04 28 4d 02 a4 20 4a 7b 6c b7 c5
+                    55 19 77 a9 b3 63 79 ca 3d e1 a0 8e 69 f3 01 c9
+                    5c c1 c2 05 06 95 92 75 f4 17 23 dd 5d 29 25 29
+                    05 79 e5 a9 5b 0d f6 32 3f c8 e9 27 3d 6f 84 91
+                    98 c4 99 62 09 16 6d 9b fc 97 3c 36 1c c8 26 e1
+                </Modulus>
+                <HashAlgorithmIndicator>01</HashAlgorithmIndicator>
+                <Hash>
+                    f0 6e cc 6d 2a ae bf 25 9b 7e 75 5a 38 d9 a9 b2
+                    4e 2f f3 dd
+                </Hash>
+                <PublicKeyAlgorithmIndicator>01</PublicKeyAlgorithmIndicator>
+            </PublicKey>
+            <PublicKey index="250"> <!-- 0xfa -->
+                <Description>TEST key</Description>
+                <ExpirationDate>31 Dec 2999</ExpirationDate>
+                <Exponent>03</Exponent>
+                <Modulus>
+                    a9 0f cd 55 aa 2d 5d 99 63 e3 5e d0 f4 40 17 76
+                    99 83 2f 49 c6 ba b1 5c da e5 79 4b e9 3f 93 4d
+                    44 62 d5 d1 27 62 e4 8c 38 ba 83 d8 44 5d ea a7
+                    41 95 a3 01 a1 02 b2 f1 14 ea da 0d 18 0e e5 e7
+                    a5 c7 3e 0c 4e 11 f6 7a 43 dd ab 5d 55 68 3b 14
+                    74 cc 06 27 f4 4b 8d 30 88 a4 92 ff aa da d4 f4
+                    24 22 d0 e7 01 35 36 c3 c4 9a d3 d0 fa e9 64 59
+                    b0 f6 b1 b6 05 65 38 a3 d6 d4 46 40 f9 44 67 b1
+                    08 86 7d ec 40 fa ae cd 74 0c 00 e2 b7 a8 85 2d
+                </Modulus>
+                <HashAlgorithmIndicator>01</HashAlgorithmIndicator>
+                <Hash>
+                    5b ed 40 68 d9 6e a1 6d 2d 77 e0 3d 60 36 fc 7a
+                    16 0e a9 9c
+                </Hash>
+                <PublicKeyAlgorithmIndicator>01</PublicKeyAlgorithmIndicator>
+            </PublicKey>
+            <PublicKey index="254"> <!-- 0xfe -->
+                <Description>TEST key</Description>
+                <ExpirationDate>31 Dec 2999</ExpirationDate>
+                <Exponent>03</Exponent>
+                <Modulus>
+                    a6 53 ea c1 c0 f7 86 c8 72 4f 73 7f 17 29 97 d6
+                    3d 1c 32 51 c4 44 02 04 9b 86 5b ae 87 7d 0f 39
+                    8c bf be 8a 60 35 e2 4a fa 08 6b ef de 93 51 e5
+                    4b 95 70 8e e6 72 f0 96 8b cd 50 dc e4 0f 78 33
+                    22 b2 ab a0 4e f1 37 ef 18 ab f0 3c 7d bc 58 13
+                    ae ae f3 aa 77 97 ba 15 df 7d 5b a1 cb af 7f d5
+                    20 b5 a4 82 d8 d3 fe e1 05 07 78 71 11 3e 23 a4
+                    9a f3 92 65 54 a7 0f e1 0e d7 28 cf 79 3b 62 a1
+                </Modulus>
+                <HashAlgorithmIndicator>01</HashAlgorithmIndicator>
+                <Hash>
+                    9a 29 5b 05 fb 39 0e f7 92 3f 57 61 8a 9f da 29
+                    41 fc 34 e0
+                </Hash>
+                <PublicKeyAlgorithmIndicator>01</PublicKeyAlgorithmIndicator>
+            </PublicKey>
+        </PublicKeys>
+    </CA>
+    <CA RID="a0 00 00 00 25">
+        <Name>American Express</Name>
+        <Description></Description>
+        <PublicKeys>
+            <PublicKey index="3"> <!-- 0x03 -->
+                <Description>TEST key</Description>
+                <ExpirationDate>31 Dec 2999</ExpirationDate>
+                <Exponent>03</Exponent>
+                <Modulus>
+                    b0 c2 c6 e2 a6 38 69 33 cd 17 c2 39 49 6b f4 8c
+                    57 e3 89 16 4f 2a 96 bf f1 33 43 9a e8 a7 7b 20
+                    49 8b d4 dc 69 59 ab 0c 2d 05 d0 72 3a f3 66 89
+                    01 93 7b 67 4e 5a 2f a9 2d dd 5e 78 ea 9d 75 d7
+                    96 20 17 3c c2 69 b3 5f 46 3b 3d 4a af f2 79 4f
+                    92 e6 c7 a3 fb 95 32 5d 8a b9 59 60 c3 06 6b e5
+                    48 08 7b cb 6c e1 26 88 14 4a 8b 4a 66 22 8a e4
+                    65 9c 63 4c 99 e3 60 11 58 4c 09 50 82 a3 a3 e3
+                </Modulus>
+                <HashAlgorithmIndicator>01</HashAlgorithmIndicator>
+                <Hash>
+                    87 08 a3 e3 bb c1 bb 0b e7 3e bd 8d 19 d4 e5 d2
+                    01 66 bf 6c
+                </Hash>
+                <PublicKeyAlgorithmIndicator>01</PublicKeyAlgorithmIndicator>
+            </PublicKey>
+            <PublicKey index="4"> <!-- 0x04 -->
+                <Description>TEST key</Description>
+                <ExpirationDate>31 Dec 2999</ExpirationDate>
+                <Exponent>03</Exponent>
+                <Modulus>
+                    d0 f5 43 f0 3f 25 17 13 3e f2 ba 4a 11 04 48 67
+                    58 63 0d cf e3 a8 83 c7 7b 4e 48 44 e3 9a 9b d6
+                    36 0d 23 e6 64 4e 1e 07 1f 19 6d df 2e 4a 68 b4
+                    a3 d9 3d 14 26 8d 72 40 f6 a1 4f 0d 71 4c 17 82
+                    7d 27 9d 19 2e 88 93 1a f7 30 07 27 ae 9d a8 0a
+                    3f 0e 36 6a eb a6 17 78 17 17 37 98 9e 1e e3 09
+                </Modulus>
+                <HashAlgorithmIndicator>01</HashAlgorithmIndicator>
+                <Hash>
+                    fd d7 13 9e c7 e0 c3 31 67 fd 61 ad 3c ad bd 68
+                    d6 6e 91 c5
+                </Hash>
+                <PublicKeyAlgorithmIndicator>01</PublicKeyAlgorithmIndicator>
+            </PublicKey>
+            <PublicKey index="14"> <!-- 0x0e -->
+                <Description>TEST key</Description>
+                <ExpirationDate>31 Dec 2999</ExpirationDate>
+                <Exponent>03</Exponent>
+                <Modulus>
+                    aa 94 a8 c6 da d2 4f 9b a5 6a 27 c0 9b 01 02 08
+                    19 56 8b 81 a0 26 be 9f d0 a3 41 6c a9 a7 11 66
+                    ed 50 84 ed 91 ce d4 7d d4 57 db 7e 6c bc d5 3e
+                    56 0b c5 df 48 ab c3 80 99 3b 6d 54 9f 51 96 cf
+                    a7 7d fb 20 a0 29 61 88 e9 69 a2 77 2e 8c 41 41
+                    66 5f 8b b2 51 6b a2 c7 b5 fc 91 f8 da 04 e8 d5
+                    12 eb 0f 64 11 51 6f b8 6f c0 21 ce 7e 96 9d a9
+                    4d 33 93 79 09 a5 3a 57 f9 07 c4 0c 22 00 9d a7
+                    53 2c b3 be 50 9a e1 73 b3 9a d6 a0 1b a5 bb 85
+                </Modulus>
+                <HashAlgorithmIndicator>01</HashAlgorithmIndicator>
+                <Hash>
+                    a7 26 6a ba e6 4b 42 a3 66 88 51 19 1d 49 85 6e
+                    17 f8 fb cd
+                </Hash>
+                <PublicKeyAlgorithmIndicator>01</PublicKeyAlgorithmIndicator>
+            </PublicKey>
+            <PublicKey index="15"> <!-- 0x0f -->
+                <Description>TEST key</Description>
+                <ExpirationDate>31 Dec 2999</ExpirationDate>
+                <Exponent>03</Exponent>
+                <Modulus>
+                    c8 d5 ac 27 a5 e1 fb 89 97 8c 7c 64 79 af 99 3a
+                    b3 80 0e b2 43 99 6f bb 2a e2 6b 67 b2 3a c4 82
+                    c4 b7 46 00 5a 51 af a7 d2 d8 3e 89 4f 59 1a 23
+                    57 b3 0f 85 b8 56 27 ff 15 da 12 29 0f 70 f0 57
+                    66 55 2b a1 1a d3 4b 71 09 fa 49 de 29 dc b0 10
+                    96 70 87 5a 17 ea 95 54 9e 92 34 7b 94 8a a1 f0
+                    45 75 6d e5 6b 70 7e 38 63 e5 9a 6c be 99 c1 27
+                    2e f6 5f b6 6c bb 4c ff 07 0f 36 02 9d d7 62 18
+                    b2 12 42 64 5b 51 ca 75 2a f3 7e 70 be 1a 84 ff
+                    31 07 9d c0 04 8e 92 88 83 ec 4f ad d4 97 a7 19
+                    38 5c 2b bb eb c5 a6 6a a5 e5 65 5d 18 03 4e c5
+                </Modulus>
+                <HashAlgorithmIndicator>01</HashAlgorithmIndicator>
+                <Hash>
+                    a7 34 72 b3 ab 55 74 93 a9 bc 21 79 cc 80 14 05
+                    3b 12 ba b4
+                </Hash>
+                <PublicKeyAlgorithmIndicator>01</PublicKeyAlgorithmIndicator>
+            </PublicKey>
+            <PublicKey index="16"> <!-- 0x10 -->
+                <Description>TEST key</Description>
+                <ExpirationDate>31 Dec 2999</ExpirationDate>
+                <Exponent>03</Exponent>
+                <Modulus>
+                    cf 98 df ed b3 d3 72 79 65 ee 77 97 72 33 55 e0
+                    75 1c 81 d2 d3 df 4d 18 eb ab 9f b9 d4 9f 38 c8
+                    c4 a8 26 b9 9d c9 de a3 f0 10 43 d4 bf 22 ac 35
+                    50 e2 96 2a 59 63 9b 13 32 15 64 22 f7 88 b9 c1
+                    6d 40 13 5e fd 1b a9 41 47 75 05 75 e6 36 b6 eb
+                    c6 18 73 4c 91 c1 d1 bf 3e dc 2a 46 a4 39 01 66
+                    8e 0f fc 13 67 74 08 0e 88 80 44 f6 a1 e6 5d c9
+                    aa a8 92 8d ac be b0 db 55 ea 35 14 68 6c 6a 73
+                    2c ef 55 ee 27 cf 87 7f 11 06 52 69 4a 0e 34 84
+                    c8 55 d8 82 ae 19 16 74 e2 5c 29 62 05 bb b5 99
+                    45 51 76 fd d7 bb c5 49 f2 7b a5 fe 35 33 6f 7e
+                    29 e6 8d 78 39 73 19 94 36 63 3c 67 ee 5a 68 0f
+                    05 16 0e d1 2d 16 65 ec 83 d1 99 7f 10 fd 05 bb
+                    db f9 43 3e 8f 79 7a ee 3e 9f 02 a3 42 28 ac e9
+                    27 ab e6 2b 8b 92 81 ad 08 d3 df 5c 73 79 68 50
+                    45 d7 ba 5f cd e5 86 37
+                </Modulus>
+                <HashAlgorithmIndicator>01</HashAlgorithmIndicator>
+                <Hash>
+                    c7 29 cf 2f d2 62 39 4a bc 4c c1 73 50 65 02 44
+                    6a a9 b9 fd
+                </Hash>
+                <PublicKeyAlgorithmIndicator>01</PublicKeyAlgorithmIndicator>
+            </PublicKey>
+            <PublicKey index="98"> <!-- 0x62 -->
+                <Description>TEST key</Description>
+                <ExpirationDate>31 Dec 2999</ExpirationDate>
+                <Exponent>03</Exponent>
+                <Modulus>
+                    ba 29 de 83 09 0d 8d 5f 4d ff ce b9 89 18 99 5a
+                    76 8f 41 d0 18 3e 1a ca 3e f8 d5 ed 90 62 85 3e
+                    40 80 e0 d2 89 a5 ce dd 4d d9 6b 1f ea 2c 53 42
+                    84 36 ce 15 a2 a1 bf e6 9d 46 19 7d 3f 5a 79 bc
+                    f8 f4 85 8b ff a0 4e db 07 fc 5b e8 56 0d 9c e3
+                    8f 5c 3c a3 c7 42 ed fd ba e3 b5 e6 dd a4 55 57
+                </Modulus>
+                <HashAlgorithmIndicator>01</HashAlgorithmIndicator>
+                <Hash>
+                    cc c7 30 3f f2 95 a9 f3 5b a6 1b d3 1e 27 ea bd
+                    59 65 82 65
+                </Hash>
+                <PublicKeyAlgorithmIndicator>01</PublicKeyAlgorithmIndicator>
+            </PublicKey>
+            <PublicKey index="103"> <!-- 0x67 -->
+                <Description>TEST key</Description>
+                <ExpirationDate>31 Dec 2999</ExpirationDate>
+                <Exponent>03</Exponent>
+                <Modulus>
+                    c6 87 ad cc f3 d5 7d 33 60 b1 74 e4 71 ed a6 93
+                    aa 55 5d fd c6 c8 cd 39 4c 74 ba 25 cc df 8e ab
+                    fd 1f 1c ea df be 22 80 c9 e8 1f 7a 05 89 98 dc
+                    22 b7 f2 25 76 fe 84 71 3d 0b dd 3d 34 cf cd 12
+                    fc d0 d2 69 01 ba 74 10 3d 07 5c 66 4d ab cc af
+                    57 bf 78 94 94 05 1c 5e c3 03 a2 e1 d7 84 30 6d
+                    3d b3 eb 66 5c d3 60 a5 58 f4 0b 7c 05 c9 19 b2
+                    f0 28 2f e1 ed 9b f6 26 1a a8 14 64 8f bc 26 3b
+                    14 21 44 91 de 42 6d 24 2d 65 cd 1f ff 0f be 4d
+                    4d af f5 cf ac b2 ad c7 13 1c 9b 14 7e e7 91 95
+                    65 51 07 62 70 69 6b 75 fd 97 37 3f 1f d7 80 4f
+                </Modulus>
+                <HashAlgorithmIndicator>01</HashAlgorithmIndicator>
+                <Hash>
+                    52 a2 90 73 00 c8 44 5b f5 4b 97 0c 89 46 91 fe
+                    ad f2 d2 8e
+                </Hash>
+                <PublicKeyAlgorithmIndicator>01</PublicKeyAlgorithmIndicator>
+            </PublicKey>
+            <PublicKey index="104"> <!-- 0x68 -->
+                <Description>TEST key</Description>
+                <ExpirationDate>31 Dec 2999</ExpirationDate>
+                <Exponent>03</Exponent>
+                <Modulus>
+                    f4 d1 98 f2 f0 cf 14 0e 4d 2d 81 b7 65 eb 4e 24
+                    ce d4 c0 83 48 22 76 98 54 d0 e9 7e 80 66 cb e4
+                    65 02 9b 3f 41 0e 35 0f 62 96 38 1a 25 3b e7 1a
+                    4b ba bb d5 16 62 5d ae 67 d0 73 d0 01 13 aa b9
+                    ea 4d ce ca 29 f3 bb 7a 5d 46 c0 d8 b9 83 e2 48
+                    2c 2a d7 59 73 5a 5a b9 aa ae fb 31 d3 e7 18 b8
+                    ca 66 c0 19 ec a0 a8 be 31 2e 24 3e b4 7a 62 30
+                    06 20 bd 51 cf 16 9a 91 94 c1 7a 42 e5 1b 34 d8
+                    37 75 a9 8e 80 b2 d6 6f 4f 98 08 4a 44 8f e0 50
+                    7e a2 7c 90 5a ee 72 b6 2a 8a 29 43 8b 6a 44 80
+                    ff f7 2f 93 28 04 32 a5 5f dd 64 8a d9 3d 82 b9
+                    ec f0 12 75 c0 91 4b ad 8e b3 aa f4 6b 12 9f 87
+                    49 fe a4 25 a2 dc dd 7e 81 3a 08 fc 0c a7 84 1e
+                    dd 49 98 5c d8 bc 6d 5d 56 f1 7a b9 c6 7c ec 50
+                    ba 42 24 40 56 3e cc e2 16 99 e4 35 c8 68 2b 62
+                    66 39 36 72 c6 93 d8 b7
+                </Modulus>
+                <HashAlgorithmIndicator>01</HashAlgorithmIndicator>
+                <Hash>
+                    41 5e 5f e9 ec 96 6c 83 5f bb 3e 6f 76 6a 9b 1a
+                    4b 86 74 c3
+                </Hash>
+                <PublicKeyAlgorithmIndicator>01</PublicKeyAlgorithmIndicator>
+            </PublicKey>
+        </PublicKeys>
+    </CA>
+    <CA RID="a0 00 00 00 65">
+        <Name>JCB</Name>
+        <Description>Japan Credit Bureau</Description>
+        <PublicKeys>
+            <PublicKey index="8"> <!-- 0x08 -->
+                <Description>TEST key</Description>
+                <ExpirationDate>31 Dec 2999</ExpirationDate>
+                <Exponent>03</Exponent>
+                <Modulus>
+                    b7 46 70 da d1 dc 89 83 65 20 00 e5 a7 f2 f8 b3
+                    5d fd 08 3e e5 93 e5 ba 89 5c 95 72 9f 2b ad e9
+                    c8 ab f3 dd 9c e2 40 c4 51 c6 ce ff c7 68 d8 3c
+                    ba c7 6a bb 8f ea 58 f0 13 c6 47 00 7c ff 76 17
+                    ba c2 ae 39 81 81 6f 25 cc 7e 52 38 ef 34 c4 f0
+                    2d 0b 01 c2 4f 80 c2 c6 5e 7e 77 43 a4 fa 8e 23
+                    20 6a 23 ec e2 90 c2 6e a5 6d b0 85 c5 c5 ea e2
+                    62 92 45 1f c8 29 2f 99 57 be 8f f2 0f ad 53 e5
+                </Modulus>
+                <HashAlgorithmIndicator>01</HashAlgorithmIndicator>
+                <Hash>
+                    dd 36 d5 89 62 28 c8 c4 90 07 42 f1 07 e2 f9 1f
+                    e5 0b c7 ee
+                </Hash>
+                <PublicKeyAlgorithmIndicator>01</PublicKeyAlgorithmIndicator>
+            </PublicKey>
+            <PublicKey index="15"> <!-- 0x0f -->
+                <Description>TEST key</Description>
+                <ExpirationDate>31 Dec 2999</ExpirationDate>
+                <Exponent>03</Exponent>
+                <Modulus>
+                    9e fb ad de 40 71 d4 ef 98 c9 69 eb 32 af 85 48
+                    64 60 2e 51 5d 65 01 fd e5 76 b3 10 96 4a 4f 7c
+                    2c e8 42 ab ef af c5 dc 9e 26 a6 19 bc f2 61 4f
+                    e0 73 75 b9 24 9b ef a0 9c fe e7 02 32 e7 5f fd
+                    64 75 71 28 0c 76 ff ca 87 51 1a d2 55 b9 8a 6b
+                    57 75 91 af 01 d0 03 bd 6b f7 e1 fc e4 df d2 0d
+                    0d 02 97 ed 5e ca 25 de 26 1f 37 ef e9 e1 75 fb
+                    5f 12 d2 50 3d 8c fb 06 0a 63 13 85 11 fe 0e 12
+                    5c f3 a6 43 af d7 d6 6d cf 96 82 bd 24 6d de a1
+                </Modulus>
+                <HashAlgorithmIndicator>01</HashAlgorithmIndicator>
+                <Hash>
+                    2a 1b 82 de 00 f5 f0 c4 01 76 0a df 52 82 28 d3
+                    ed e0 f4 03
+                </Hash>
+                <PublicKeyAlgorithmIndicator>01</PublicKeyAlgorithmIndicator>
+            </PublicKey>
+        </PublicKeys>
+    </CA>
+    <CA RID="a0 00 00 01 52">
+        <Name>Discover</Name>
+        <Description></Description>
+        <PublicKeys>
+            <PublicKey index="90"> <!-- 0x5a -->
+                <Description>TEST key</Description>
+                <ExpirationDate>31 Dec 2999</ExpirationDate>
+                <Exponent>03</Exponent>
+                <Modulus>
+                    ed d8 25 24 68 a7 05 61 4b 4d 07 de 32 11 b3 00
+                    31 ae db 6d 33 a4 31 5f 2c ff 7c 97 db 91 89 93
+                    c2 dc 02 e7 9e 2f f8 a2 68 3d 5b bd 0f 61 4b c9
+                    ab 36 0a 44 82 83 ef 8b 9c f6 73 1d 71 d6 be 93
+                    9b 7c 5d 0b 04 52 d6 60 cf 24 c2 1c 47 ca c8 e2
+                    69 48 c8 ee d8 e3 d0 0c 01 68 28 d6 42 81 6e 65
+                    8d c2 cf c6 1e 7e 7d 77 40 63 3b ef e3 41 07 c1
+                    fb 55 de a7 fa ae a2 b2 5e 85 be d9 48 89 3d 07
+                </Modulus>
+                <HashAlgorithmIndicator>01</HashAlgorithmIndicator>
+                <Hash>
+                    cc 95 85 e8 e6 37 19 1c 10 fc ec b3 2b 5a e1 b9
+                    d4 10 b5 2d
+                </Hash>
+                <PublicKeyAlgorithmIndicator>01</PublicKeyAlgorithmIndicator>
+            </PublicKey>
+            <PublicKey index="91"> <!-- 0x5b -->
+                <Description>TEST key</Description>
+                <ExpirationDate>31 Dec 2999</ExpirationDate>
+                <Exponent>03</Exponent>
+                <Modulus>
+                    d3 f4 5d 06 5d 4d 90 0f 68 b2 12 9a fa 38 f5 49
+                    ab 9a e4 61 9e 55 45 81 4e 46 8f 38 20 49 a0 b9
+                    77 66 20 da 60 d6 25 37 f0 70 5a 2c 92 6d be ad
+                    4c a7 cb 43 f0 f0 dd 80 95 84 e9 f7 ef bd a3 77
+                    87 47 bc 9e 25 c5 60 65 26 fa b5 e4 91 64 6d 4d
+                    d2 82 78 69 1c 25 95 6c 8f ed 5e 45 2f 24 42 e2
+                    5e dc 6b 0c 1a a4 b2 e9 ec 4a d9 b2 5a 1b 83 62
+                    95 b8 23 ed dc 5e b6 e1 e0 a3 f4 1b 28 db 8c 3b
+                    7e 3e 9b 59 79 cd 7e 07 9e f0 24 09 5a 1d 19 dd
+                </Modulus>
+                <HashAlgorithmIndicator>01</HashAlgorithmIndicator>
+                <Hash>
+                    4d c5 c6 ca b6 ae 96 97 4d 9d c8 b2 43 5e 21 f5
+                    26 bc 7a 60
+                </Hash>
+                <PublicKeyAlgorithmIndicator>01</PublicKeyAlgorithmIndicator>
+            </PublicKey>
+        </PublicKeys>
+    </CA>
+</CertificationAuthorities>

@@ -1,0 +1,164 @@
+# RID; Applicant; Country
+# Austria
+D040000001; Paylife; Austria
+# Germany
+# http://www.kartenbezogene-identifier.de/de/rapi/rid-liste.html
+D276000001; Gesetzl. KrankenV.; Germany
+D276000002; ZeitControl; Germany
+D276000003; Deutsche Telek., Telesec; Germany
+D276000004; Infineon/Siemens HL; Germany
+D276000005; Giesecke&Devrient; Germany
+D276000006; Bosch Telecom UC VT; Germany
+D276000007; Fraunhofer SIT; Germany
+D276000008; Holtkamp; Germany
+D276000009; Novacard; Germany
+D276000010; Bosch Telecom ÖV; Germany
+D276000011; Getronik; Germany
+D276000012; Kaste Systemcard; Germany
+#13 Missing
+D276000014; Siemens SI; Germany
+D276000015; KODAK; Germany
+D276000016; Bek; Germany
+D276000017; Blaupunkt-Werke; Germany
+D276000018; Celectronic; Germany
+D276000019; M+S V.- u. S.-Techn.; Germany
+D276000020; COPILOT; Germany
+D276000021; Scheidt & Bachmann; Germany
+D276000022; IBM Laboratories; Germany
+D276000023; APCON; Germany
+D276000024; Lufthansa; Germany
+D276000025; ZKA; Germany
+D276000026; AutoMeter; Germany
+D276000027; Meiller ComCard; Germany
+D276000028; SAGEM ORGA; Germany
+D276000029; Contidata; Germany
+D276000030; Hagenuk; Germany
+D276000031; Mercedes Benz; Germany
+D276000032; Winter Wertdruck; Germany
+D276000033; EBS; Germany
+D276000034; Siemens VT; Germany
+D276000035; Gemplus; Germany
+D276000036; TeleTrusT; Germany
+D276000037; Staatl. Lotterie Bayern; Germany
+D276000038; SNI; Germany
+D276000039; MW-Lotto; Germany
+D276000040; ZI der KV; Germany
+D276000041; ELGEBA; Germany
+D276000042; TU Darmstadt; Germany
+D276000043; AOK Leipzig; Germany
+D276000044; HTS; Germany
+D276000045; Cards&Devices; Germany
+D276000046; ODS; Germany
+D276000047; DeTeMobil; Germany
+D276000048; DataCard; Germany
+D276000049; MARALU; Germany
+D276000050; Systemform; Germany
+D276000051; Challenge Card Design; Germany
+D276000052; Deutsche Telekom, FTZ; Germany
+D276000053; China Handel; Germany
+D276000054; DRK; Germany
+D276000055; Siemens ANL; Germany
+D276000056; PKV; Germany
+D276000057; Interflex; Germany
+D276000058; Bayer AG; Germany
+D276000059; NOVO; Germany
+D276000060; Wolfgang Rankl; Germany
+D276000061; Competition; Germany
+D276000062; TOWITOKO; Germany
+D276000063; PAV-CARD; Germany
+D276000064; Hess; Germany
+D276000065; ATRON; Germany
+D276000066; BAPT/BSI; Germany
+D276000067; DG-Verlag; Germany
+D276000068; Plail; Germany
+D276000069; Kaste Zahlungssysteme; Germany
+D276000070; ARCOR; Germany
+D276000071; BEWATEC; Germany
+D276000072; CCS; Germany
+D276000073; Bull; Germany
+D276000074; Bank-Verlag; Germany
+D276000075; DentCard; Germany
+D276000076; UITIMACO; Germany
+D276000077; DATEV; Germany
+D276000078; SI-Elektronik; Germany
+D276000079; CE Infosys; Germany
+D276000080; Siemens ICN NES; Germany
+D276000081; VEGAS; Germany
+D276000082; Union Tank; Germany
+D276000083; SECUDE; Germany
+D276000084; BZA; Germany
+D276000085; NXP Semiconductors / NFC Forum; Germany
+D276000086; BUILT; Germany
+D276000087; PROMEC; Germany
+D276000088; Beckmann; Germany
+D276000089; PPC Card Systems; Germany
+D276000090; SPS; Germany
+D276000091; ACG Smartgate; Germany
+D276000092; Endergonic; Germany
+D276000093; Kahlo; Germany
+D276000094; Cichon; Germany
+D276000095; ACG (AG) Identification; Germany
+D276000096; RMV; Germany
+#97 Missing
+D276000098; Cryptovision; Germany
+D276000099; DSGV; Germany
+D276000100; Seca Vogel&Halke; Germany
+D276000101; Celo Communications; Germany
+D276000102; Logics Software; Germany
+D276000103; Tally; Germany
+D276000104; VÖB-ZVD; Germany
+D276000105; Kobil; Germany
+D276000106; Siemens A&D; Germany
+D276000107; TELETEACH; Germany
+D276000108; card.etc; Germany
+D276000109; ISS; Germany
+D276000110; BGS Systemplanung; Germany
+D276000111; ELME; Germany
+D276000112; My-tronic; Germany
+D276000113; AmaTech; Germany
+D276000114; ECM; Germany
+D276000115; Medizon; Germany
+D276000116; Swiss Post Solutions; Germany
+D276000117; One Smart World; Germany
+D276000118; Giesecke&Devrient Java Card Telecommunikation; Germany
+D276000119; TU Berlin; Germany
+D276000120; EXAKT; Germany
+D276000121; SII; Germany
+D276000122; CogniMed; Germany
+D276000123; UniKiel; Germany
+D276000124; fsfEurope; Germany
+D276000125; Wincor Nixdorf; Germany
+D276000126; Masktech; Germany
+D276000127; DGN-Service; Germany
+D276000128; Ostsee-Tourismus; Germany
+D276000129; FlexoCard; Germany
+D276000130; SMC-Trust; Germany
+D276000131; AVS; Germany
+D276000132; BSI; Germany
+D276000133; metabit; Germany
+D276000134; SEFIROT; Germany
+D276000135; VDV; Germany
+D276000136; Canoa; Germany
+D276000137; Compris Intelligence; Germany
+D276000138; IICS; Germany
+D276000139; IGEL Technology; Germany
+D276000140; Globetac Solutions; Germany
+D276000141; InterComponentWare AG; Germany
+D276000142; GM Consult IT; Germany
+D276000143; Web and Cards; Germany
+D276000144; gematik; Germany
+D276000145; REA Cards; Germany
+D276000146; Bundesärztekammer; Germany
+D276000147; gt german telematics; Germany
+D276000148; Physikalisch-Techn. Bundesanstalt (PTB); Germany
+D276000149; TU Dresden; Germany
+D276000150; IKK Nordrhein; Germany
+D276000151; RIS-Software; Germany
+D276000152; Deutscher Sparkassenverlag; Germany
+D276000153; Mühlbauer; Germany
+D276000154; Vereinigte IKK; Germany
+D276000155; IDpendant; Germany
+D276000156; OSPT; Germany
+D276000157; sysmocom-systems for mobile communications; Germany
+# Norway
+D578000002; Bankaxept; Norway

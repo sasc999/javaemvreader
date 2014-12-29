@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp  spec="1.6+" codebase="" href="launch_local.jnlp">
+    <information>
+        <title>Java EMV Reader</title>
+        <vendor>sasc</vendor>
+        <homepage href=""/>
+        <description>Java EMV Reader</description>
+        <offline-allowed/>
+    </information>
+    <security>
+        <all-permissions/>
+    </security>
+    <resources>
+        <j2se version="1.6+" java-vm-args="-esa -Xnoclassgc"/>
+        <property name="jnlp.versionEnabled" value="true"/>
+        <jar href="target/javaemvreader-0.0.1-SNAPSHOT-full.jar"/>
+    </resources>
+    <application-desc main-class="sasc.Main"/>
+</jnlp>

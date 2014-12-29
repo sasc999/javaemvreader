@@ -1,0 +1,408 @@
+#A-international registration
+#RID; Applicant; Country
+A000000001; PBS Danmønt A/S; Denmark
+A000000002; Mondex International Ltd.; UK
+A000000003; Visa International; US
+A000000004; Mastercard International; US
+A000000005; Switch Card Services Ltd.; UK
+A000000006; Cardintell S.A.; Switzerland
+A000000007; National Westminster Bank Plc; UK
+A000000008; GyD Iberica; Spain
+A000000009; ETSI; France
+A000000010; Europay International; Belgium
+A000000011; TSB Bank Plc; UK
+A000000012; BT; UK
+A000000013; OTB Card Company Limited; Hong Kong
+A000000014; Touch Technology Inc.; US
+A000000015; Pocket Key S.R.L.; Italy
+A000000016; Computercentrum C. van de Velden B:V (CCV); Netherlands
+A000000017; Veron SpA; Italy
+A000000018; GEMPLUS; France
+A000000019; ID Data Systems Ltd.; UK
+A000000020; Laurel Intelligent Systems Co. Ltd.; Japan
+A000000021; National CacheCard Co.; US
+A000000022; G.I.E. SESAM-VITALE; France
+A000000023; ATA/IATA; US
+A000000024; Midland Bank Plc; UK
+A000000025; American Express; UK
+A000000026; Nationwide Building Society; UK
+A000000027; OSI Plus Corporation; Japan
+A000000028; MONET+; Czech Republic
+A000000029; LINK Interchange Network Ltd; UK
+A000000030; Schlumberger Industries Identif d'Encarteur PR050; France
+A000000031; Kokusai Denshin Denwa Co., Ltd.; Japan
+A000000032; De Post Belgie; Belgium
+A000000033; Banque Carrefour de la Securite Sociale; Belgium
+A000000034; Bank of Scotland; UK
+A000000035; Sistema 4B; Spain
+A000000036; The Co-operative Bank; UK
+A000000037; SEIS; Sweden
+A000000038; Delhaize De Leeuw; Belgium
+A000000039; Acorn Group; UK
+A000000040; ICL; US
+A000000041; Timelox AB; Sweden
+A000000042; Groupement des Cartes Bancaires "CB"; France
+A000000043; Eclipse Medi Save America Corp.; US
+A000000044; GSS (Global Specification for Short Range Communication); Germany
+A000000045; Barclays; UK
+A000000046; Transtex S.A.; Argentina
+A000000047; Security Dynamics Techn. Inc.; Sweden
+A000000048; CARDAG, Karten und Technologie; Switzerland
+A000000049; Clydesdale Bank P.L.C.; UK
+A000000050; Yorkshire Bank P.L.C.; UK
+A000000051; Northern Bank Limited; UK
+A000000052; Sainsbury Supermarkets Ltd. (ATC-payments); UK
+A000000053; Sani Group Italia S.R.L.; Italy
+A000000054; Alacarte Engineering; Belgium
+A000000055; BankomatCentralen AB; Sweden
+A000000056; Datakey, Inc.; US
+A000000057; Global Chipcard Alliance (GCA); US
+A000000058; AB InTech; Estonia
+A000000059; Zentraler Kreditausschuss (ZKA); Germany
+A000000060; Applied Card Technologies Ltd; UK
+A000000061; Mycal Card Incorporated; Japan
+A000000062; Sun Microsystems Inc.; US
+A000000063; RSA Laboratories; US
+A000000064; Schindler Elevator Corp.; US
+A000000065; JCB CO., LTD.; Japan
+A000000066; Secunet Security Networks GmbH; Germany
+A000000067; Iris Technologies Sdn. Bhd.; Malaysia
+A000000068; CardLogix Corporation; US
+A000000069; Société Européenne de Monnaie Electronique SEME; France
+A000000070; Prism Card Technologies; South Africa
+A000000071; Euro Information; France
+A000000072; Royal Bank of Canada; Canada
+A000000073; Netlink Consortium; France
+A000000074; Smart Card Solutions (Development Services) Ltd.; UK
+A000000075; Open Interactive Limited; UK
+A000000077; Oberthur Technologies; France
+A000000078; Welcome Real-Time; France
+A000000079; Activcard Europe S.A.; France
+A000000080; Smart TV; US
+A000000081; Worldcard (2000) Ltd.; UK
+A000000082; Union Internationale des Chemins de Fer; France
+A000000083; Percomad B.V.; Netherlands
+A000000084; Precise Biometrics AB; Sweden
+A000000085; USIS Management Inc.; US
+A000000086; Strålfors AB; Sweden
+A000000087; Third Generation Partnership Project (3GPP); France
+A000000088; Buypass AS; Norway
+A000000089; American Association of Motor Vehicle Administrators; US
+A000000090; Smart Card Solutions, LIC; US
+A000000091; Cybermark; US
+A000000092; Mobile-Mind; US
+A000000093; Ask S.A.; France
+A000000094; MULTOS Promotion Association; Japan
+A000000095; Incard S.p.A.; Italy
+A000000096; Sa Proton World International N.V.; Belgium
+A000000097; CIC GLOBAL; New Zealand
+A000000098; Visa USA; US
+A000000099; Cryptocard Corporation; Canada
+A000000100; Net Time Corp.; Japan
+A000000101; New Financial Systems, Services & Products, Dept. Financial Systems Division, Hitachi Ltd.; Japan
+A000000102; Syntactics Limited; UK
+A000000103; Catuity Incorporated; US
+A000000104; Israel Credit Cards Ltd.; Israel
+A000000105; Digital Pockets, LLC; US
+A000000106; Protective Technology; Norway
+A000000107; HSB Cards & Card Systems B.V.; Netherlands
+A000000108; AETeurope b.v.; Netherlands
+A000000109; Citicorp Development Center Inc.; US
+A000000110; The Boots Company PLC; UK
+A000000111; Die Post Postfinance; Switzerland
+A000000112; Lironic, INC.; US
+A000000113; Datacard Platform Seven Limited; UK
+A000000114; Sila Communications Scandinavia Aps; Denmark
+A000000115; NTT Communications Corporation; Japan
+A000000116; GSA - TFCS; US
+A000000117; Airtel Movil S.A.; Spain
+A000000118; Austria Card; Austria
+A000000119; Logico Smartcard Solutions GmbH.; Austria
+A000000120; PBS Data A/S; Denmark
+A000000121; PBS Danmark A/S; Denmark
+A000000122; Humetrix.com, Inc.; US
+A000000123; Smartcard EZ.com, Inc.; US
+A000000124; The Brodie Group; US
+A000000125; Department of Veterans Affairs; US
+A000000126; Shonkh Technologies International Limited; India
+A000000127; SecureNet; Australia
+A000000128; Infineer Ltd; UK
+A000000129; Carde Systems Inc.; Canada
+A000000130; Global Consumer Technologies, Inc.; Canada
+A000000131; Mxi Technologies Ltd.; Canada
+A000000132; Java Card Forum; US
+A000000133; St. Geroge Bank Australia; Australia
+A000000134; Smartix International Corporation; US
+A000000135; Goldkey Technology Corporation; Taiwan
+A000000136; Worldsmart Technology; Australia
+A000000137; BZA Bargeldlose Zahlungs- und Abrechnungssysteme GmbH; Germany
+A000000138; Acer Internet Services, Inc.; Taiwan
+A000000139; Japan Point Anex Co., Ltd.; Japan
+A000000140; TDS TODOS DATA SYSTEM AB; Sweden
+A000000141; Associazione Bancaria Italiana; Italy
+A000000142; Toppan Printing Co. Ltd.; Japan
+A000000143; ANZ Banking Group; Australia
+A000000144; Multos Consortium; UK
+A000000145; Yokosuka City; Japan
+A000000146; Keihin Electric Express Railway Co., Ltd.; Japan
+A000000147; Defense Manpower Data Center; US
+A000000149; CISRA (Canon Research Systems Research Australia Pty Ltd); Australia
+A000000150; Smart Chip Limited ; India
+A000000151; GlobalPlatform, Inc.; US
+A000000152; Diners Club International Ltd.; US
+A000000153; National Credit Card Center of R.O.C.; Taiwan
+A000000154; Banrisul - Banco do Estado do Rio Grande do SUL - S.A.; Brazil
+A000000155; Deltaknot SDN. BHD.; Malaysia
+A000000156; HOB electronic GmbH & Co. KG; Germany
+A000000157; Zühlke Engineering AG; Switzerland
+A000000158; Cornish Key; UK
+A000000159; Hyweb Technology Co., Ltd.; Taiwan
+A000000160; Chinatrust Commercial Bank; Taiwan
+A000000161; Advanced Wave; UK
+A000000162; Europay (Switzerland) SA; Switzerland
+A000000163; Prepayment Cards Limited; UK
+A000000164; Athena Smartcard Ltd; UK
+A000000165; S-Card A/S; Denmark
+A000000166; Identix Incorporated; US
+A000000167; IBM; Germany
+A000000168; Dai Nippon Printing Co., Ltd. (DNP); Japan
+A000000169; Smart Chip Technologies, LLC; US
+A000000170; The Chinese Bank; Taiwan
+A000000171; Decru, Inc.; US
+A000000172; Financial Information Service Co. Ltd.; Taiwan
+A000000174; Sodexho-ccs; France
+A000000175; Panini Italia Srl; Italy
+A000000176; Banksys; Belgium
+A000000177; Ministère de L'Intérieur; Belgium
+A000000178; Europay Austria Zahlungsverkehrssysteme GmbH; Austria
+A000000179; Hong Kong University of Science and Technology; Hong Kong
+A000000180; Cheque Dejeuner; France
+A000000181; BGP E-Services S.A.; Belgium
+A000000182; Thalys International; Belgium
+A000000183; Changent Systems Inc.; US
+A000000184; DSI Direccao dos Servicos de Identificacao; Macao SAR
+A000000185; Post Office Limited; UK
+A000000186; Oberthur Card systems Ltd.; UK
+A000000187; Privacom B.V.; Netherlands
+A000000188; Diners Club Switzerland Ltd; Switzerland
+A000000189; Consolidated Computer Services; Australia
+A000000190; Cardis Research & Development; Israel
+A000000191; Syscom Technologies Limited; India
+A000000192; Syscom Corporation; India
+A000000193; AccessArena AG; Switzerland
+A000000194; Logos Smart Card A/S; Denmark
+A000000195; Amity Software Inc.; US
+A000000196; Capita Business Services Ltd; UK
+A000000197; European Committee for Standardization - CEN; Belgium
+A000000198; Israeli Ministry of Treasure; Israel
+A000000199; Ichikawa City; Japan
+A000000200; NonProfit Organization Ichikawa Life Network Club; Japan
+A000000201; Funabashi City; Japan
+A000000202; Kishware Co.; Iran
+A000000203; National Australia Group Europe Ltd.; UK
+A000000204; Association for Payment Clearing Services; UK
+A000000206; Nordea Bank Sweden AB; Sweden
+A000000207; Cardtronic Technology Inc.; US
+A000000209; Cassis International Pte. Ltd.; Singapore
+A000000210; TheTitan Corporation, Titan Secure Solutions; US
+A000000211; Saflink Corporation; US
+A000000212; Cyberpro Technologies Inc.; Canada
+A000000213; Sharp Corporation; Japan
+A000000214; Landis + Gyr; South Africa
+A000000215; HiSmarTech Co., Ltd.; Republic of Korea
+A000000216; ITSO Ltd.; UK
+A000000217; WAY Systems, Inc.; US
+A000000218; WEBUNDCO GmbH & Co KG; Austria
+A000000219; National Bank of Greece S.A.; Greece
+A000000220; Samsung SDS Co., Ltd.; Republic of Korea
+A000000221; E.F.G. Eurobank Ergasias S.A.; Greece
+A000000222; Easycard Ltd; UK
+A000000223; Seagate Technology; US
+A000000224; Tokyu Corporation; Japan
+A000000225; Laser Card Services Ltd.; Ireland
+A000000226; Irish Payment Services Organisation; Ireland
+A000000227; KFTC (Korea Financial Telecommunications & Clearings Institute); Republic of Korea
+A000000228; Saudi Arabian Monetary Agency (SAMA); Kingdom of Saudi Arabia
+A000000229; ALIASLAB S.P.A.; Italy
+A000000230; ECard Pty Ltd; Australia
+A000000231; National Police Agency of Japan; Japan
+A000000232; COREGATE. CO., Ltd; Republic of Korea
+A000000233; Professional Performance Systems; Australia
+A000000234; Thames Card Technology; UK
+A000000235; MCS Microsystems SDN BHD; Malaysia
+A000000236; Pacific Research Pty Ltd; Australia
+A000000237; Keycorp Limited; Australia
+A000000238; A.Little.World Pvt. Ltd.; India
+A000000239; Cornwall County Council; UK
+A000000240; Paypoint Network Ltd.; UK
+A000000241; Visa International; US
+A000000242; NagraCard S.A.; Switzerland
+A000000243; SAGEM SA; France
+A000000244; Vasco Data Security NV/SA; Belgium
+A000000245; Korea Highway Corporation; Republic of Korea
+A000000246; U.S. Department of Agriculture, Food and Nutrition Service; US
+A000000247; ISO JTC1/SC17/WG3; UK
+A000000248; ISO JTC1/SC17/WG10; UK
+A000000249; Giesecke & Devrient Asia Pte Ltd; Singapore
+A000000250; Föreningssparbanken; Sweden
+A000000251; Korea Electronic Banking Technology Co., Ltd.; Republic of Korea
+A000000252; Federal Reserve Bank of Boston; US
+A000000253; Maas International B.V.; Netherlands
+A000000254; Boston Communications Group, Inc.; US
+A000000255; TellSyn.co.LTD; Republic of Korea
+A000000256; Hitachi America Ltd.; US
+A000000257; Jatcom Oy; Finland
+A000000258; NWI Markkinointi Oy; Finland
+A000000259; Softcard Systems, Inc.; US
+A000000260; Canon Inc.; Japan
+A000000261; Smart Card Laboratory, Inc.; Republic of Korea
+A000000262; Transport Administration Corporation; Australia
+A000000263; Astute Pte Ltd; Singapore
+A000000264; BC Card Co., Ltd.; Republic of Korea
+A000000265; RICIOH Company, Ltd.; Japan
+A000000266; Sodexho - Pass; Belgium
+A000000267; Honda Motor Co., Ltd.; Japan
+A000000268; City of Sunderland Council; UK
+A000000269; Thales e-Security Limited; UK
+A000000270; Oneempower Pte Ltd; Singapore
+A000000271; The Bank of Tokyo-Mitsubishi UFJ Ltd.; Japan
+A000000272; Bank of the Philippine Islands; Philippines
+A000000273; Cabcharge Australia Ltd; Australia
+A000000274; Glenburn Technologies Private Limited; India
+A000000275; Takenaka Corporation; Japan
+A000000276; MARX CryptoTech LP; US
+A000000277; Interac Association; Canada
+A000000278; MOPASS Consortium; Japan
+A000000279; Poslovno Informacioni Sistemi d.o.o.; Serbia and Montenegro
+A000000280; Société d'Automatisation des Frères Bouadou - SATIM -; Algeria
+A000000281; Chequespread Plc; UK
+A000000282; Sentry Project Management PTY Ltd; Australia
+A000000283; Chungwa Telecom Co., Ltd. Telecommunication Laboratories; Taiwan
+A000000284; AXA, a.s., Bratislava; Slovakia
+A000000285; WLAN Smart Card Consortium; France
+A000000286; Thai Smart Card Co., Ltd.; Thailand
+A000000287; A4 Vision Inc.; US
+A000000288; Central Bank of the Islamic Republic of Iran; Iran
+A000000289; Publicenter Spa; Italy
+A000000290; National Council for Prescription Drug Programs; US
+A000000291; Spirtech; France
+A000000292; Sumitomo Mitsui Banking Corporation; Japan
+A000000293; Videosystem Srl; Italy
+A000000294; Banco INBURSA S.A.; Mexico
+A000000295; Irish Life and Permanent - Trading as Permanent TSB; Ireland
+A000000296; INSIG2 d.o.o.; Croatia
+A000000297; Silex technology, Inc; Japan
+A000000298; Vodafone global Services; Germany
+A000000299; ViVOtech, Inc.; US
+A000000300; Unigram Systems Pty Ltd; Australia
+A000000301; Arab Islamic Bank; Palestinian National Authorities
+A000000302; Cambridgeshire County Council; UK
+A000000303; Global Information Technology L.L.C.; United Arab Emirates
+A000000304; Far Eastern Electronic Toll collection Co., Ltd.; Taiwan, R.O.C.
+A000000305; Sarion Systems Research; Japan
+A000000306; PS/SC Workgroup; US
+A000000307; Smart Card Integrators, Tnc.; US
+A000000308; National Institute of Standards and Technology; US
+A000000309; Leo Smart Loyalty Management Sdn. Bhd.; Malaysia
+A000000310; Smart Platforms Co., Ltd.; Korea
+A000000311; Ubnics Co., Ltd.; Korea
+A000000312; Aladdin Knowledge Systems, Inc.; US
+A000000313; Point Vista Software; US
+A000000314; Integrated Engineering; The Netherlands
+A000000315; Currence Holding/PIN BV; The Netherlands
+A000000316; One PIN, Inc.; US
+A000000317; Sony Corporation; Japan
+A000000318; Minoh City Office; Japan
+A000000319; Findomestic Banca S.p.A.; Italy
+A000000320; Banque Accord; France
+A000000321; SK Telecom Co, Ltd; Rep. of Korea
+A000000322; Taipei Smart Card Corp.; Taiwan
+A000000323; Identity Alliance; US
+A000000324; Discover Financial Services LLC; US
+A000000325; Goddard Technology Corporation; US
+A000000326; CRYPTAS it-Security & Media GmbH; Austria
+A000000327; J & B Computing Services bv; The Netherlands
+A000000328; The Minato Bank, Ltd; Japan
+A000000329; Irdeto Access B.V.; The Netherlands
+A000000330; Volvofinans Konto AB; Sweden
+A000000331; TV-Card; France
+A000000332; XponCard AB; Sweden
+A000000333; China Unionpay Co. Ltd; China
+A000000334; oNDS Ltd; England
+A000000335; Seeker Wireless Pty Ltd; Australia
+A000000336; Sagem Denmark A/S; Danmark
+A000000337; Groupment Interbancaire Monétique de l' UEMOA; Senegal
+A000000338; Seceti S.p.A; Italy
+A000000339; Dexit Inc; Canada
+A000000340; SMEG Co Ltd; Korea
+A000000341; InfoComm Development Authority of Signapore; Singapore
+A000000342; TTA (Telecommunications Technology Association); Korea
+A000000343; 3GPP2 Telecommunication Industry Association; USA
+A000000344; C-SAM Inc; USA
+A000000345; Broadnet Engineering Limited; Kina
+A000000346; ATOS WORLDLINE; England
+A000000347; Cryptomatic A/S; Denmark
+A000000348; Security Biometric Clearing Network; USA
+A000000349; MUTOH Industries LTD; Japan
+A000000350; Hyundai Motor Company; Korea 137-938
+A000000351; Sorefi; France
+A000000352; Groupement Interbancaire de monetique et des transactions electroniques (GIMTEL); England
+A000000353; Ompay, LLC; U.S.A
+A000000354; Nokia Corporation; Finland
+A000000355; University of Zagres Faculty of electrical engineering and computing; Croatia
+A000000356; Transport Ticketinng Authority; Austalia
+A000000357; LEGIC Identsystems AG; Switzerland
+A000000358; Consorzio Triveneto; Italy
+A000000359; Euro Alliance of Payment Schemes s.c.r.l. - EAPS; Belgium
+A000000360; ESP Systex Ltd.; UK
+A000000361; Atos Worldline; France
+A000000362; AMADEUS IT GROUP S.A.; Spain
+A000000363; IOPTE; France
+A000000364; Banque Internationale pour le Commerce et l'industrie du Gabon (BICIG); Gabon
+A000000365; Savvy Technologies ptd Limited; Australia
+A000000366; Poste Italiane S.P.A; Italy
+A000000367; TWIC Program; USA
+A000000368; Lloyds TSB Bank Plc; UK
+A000000369; OMV Refining and Marketing GmbH; Austria
+A000000370; Toshiba Corporation; Japan
+A000000371; Interswitch Limited; Nigeria
+A000000372; Turkish Armed Forces Smartcard Management Center; Turkey
+A000000373; Quality Equipment Benelux B.V; The Netherlands
+A000000374; CPS Technologies; France
+A000000375; Reference Point Ltd; United Kingdom
+A000000376; ECEBS Ltd; United Kingdom
+A000000377; Texas Health and Human Services Commission; United States
+A000000378; Texas Health and Human Services Commission; United States
+A000000379; (SOK) Suomen Osuuskauppojen Keskuskunta; Finland
+A000000380; E-Kencana; Maylaysia
+A000000381; Arval Ltd; United Kingdom
+A000000382; HID Global; United States
+A000000383; Cetelem; France
+A000000384; Australian Payments Clearing Association Ltd; Australia
+A000000385; NATIXIS PAIEMENTS; France
+A000000386; AIRTAG; FRANCE
+A000000387; Association Professionnelle des Emetteurs de Titres-Repas Asbl. (A.P.E.T.R); Belgium
+A000000388; Ticket Servicos S/A; Brazil
+A000000389; LINEA S.p.A.; Italy
+A000000390; Kamsoft; Poland
+A000000391; Ministry of Health, Labour and Welfare Office of Medical Devices and Information, Research and Deve; Japan
+A000000392; Laser Cofinoga; France
+A000000393; Florida Department of Transportation Sunpass Program; USA
+A000000394; OMAC (Office Monétique de l'Afrique Centrale); Cameroun
+A000000395; Mobile Money S.A; Cameroon
+A000000396; NXP Semiconductors Germany GmbH; Germany
+A000000397; Microsoft Corporation; USA
+A000000398; Queensland Transport; Australia
+A000000399; Helixion Ltd.; Scotland
+A000000400; BlueSky Positioning Centre International de Communication Avancee; France
+A000000401; BlueSky Positioning; France
+A000000402; Mxtran Inc.; Taiwan R.O.C
+A000000403; Jelmoli Bonus Card AG; Schweiz
+A000000404; Setra/BNEVT; France
+A000000405; European Payment Solutions NV-SA; Belgium
+A000000406; Aventra Oy; Finland
+A000000407; Fujitsu Services Oy; Finland
+A000000408; Svenska Handelsbanken AB; Sweden
+A000000409; Banque Casino; France
+A000000410; AUSTROADS; Australia
+#End

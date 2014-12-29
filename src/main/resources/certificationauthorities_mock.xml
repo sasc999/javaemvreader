@@ -1,0 +1,31 @@
+<!-- Dummy CAs used when unit testing the project or simulating card interaction -->
+<CertificationAuthorities>
+    <CA RID="A1 23 45 67 89">
+        <Name>TEST</Name>
+        <Description>Test CA used for ICC emulation</Description>
+        <PublicKeys>
+            <PublicKey index="7">
+                <Description>1152-Bit TEST CA Public Key</Description>
+                <ExpirationDate>31 December 2999</ExpirationDate>
+                <Exponent>03</Exponent>
+                <Modulus>
+                    a7 aa 21 90 d8 fd 7c 23 f8 9c 76 d1 35 38 ed a4
+                    f5 08 ed 4a c5 1a 23 46 22 44 42 5d 08 de 5d 2e
+                    3c e4 9f 5f 45 36 79 6b 19 66 7e 00 80 a6 ae e6
+                    72 1f 6f 38 fb a9 a5 38 84 c4 86 74 cb 11 c0 c9
+                    3e 3a 88 11 38 22 72 a4 4a 09 b8 86 7b 9d ad 4c
+                    f5 cc 7e 39 d5 d8 cf 51 85 58 2d 65 be bc c3 e5
+                    54 fc de bb d5 51 05 b1 ba ff 05 fd 5a 9a 88 3a
+                    0e 67 d8 ee 15 cc 92 2a 8d e0 b6 13 e2 44 56 8a
+                    fe 1f 4f fd 31 15 16 dd 87 e3 4e b5 53 4d 7c 3d
+                </Modulus>
+                <HashAlgorithmIndicator>01</HashAlgorithmIndicator>
+                <Hash>
+                    ba f8 97 44 9a 1d dd 46 eb ce ca 82 95 ee 9a 12 
+                    f6 1c fd 70
+                </Hash>
+                <PublicKeyAlgorithmIndicator>01</PublicKeyAlgorithmIndicator>
+            </PublicKey>
+        </PublicKeys>
+    </CA>
+</CertificationAuthorities>

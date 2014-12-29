@@ -1,0 +1,82 @@
+changelog
+
+v0.6.1
+Port to Git
+Enhancements to CVRule, EMVTerminal and new class CVMResults (based on patch by Brave)
+Basic Yubikey NEO functionality
+
+v0.6.0
+Improvements:
+More refactoring work
+prepareTransactionProcessing (Offline Data Authentication, Processing restrictions, Terminal Risk Management, etc) [experimental]
+Added ability to specify a custom PIN callback handler
+Parse ICCPinEnciphermentPublicKeyCertificate
+Added MC and VISA proprietary tags
+Added support for registering AtrHandlers and AidHandlers
+Read data from Global Platform Security Domains
+Read JCOP Identify Applet
+Read (synchronous) storage cards (via PC/SC compliant readers)
+Re-add CA test public keys
+Use byte arrays instead of Strings when sending commands
+Store application discretionary data
+Differentiate between unprocessed records (known tag) and unknown records (unknown tag)
+Experimental support for identifying context specific TLV tags based on IIN/RID
+Automatically add Le if missing
+Added support for Internal Auth response containing RESPONSE_MESSAGE_TEMPLATE_2 (based on a patch by bgillis)
+Get PC/SC error code description, if available
+Bugfixes:
+Fixed bug in TerminalVerificationResults returning wrong array length, causing GPO to fail
+Fixed bug in the handling of verifyPIN response (based on a patch by bgillis)
+
+v0.5.2
+Temporarily disabled loading of CA test keys
+
+v0.5.1
+Added more CA test keys
+Parse Service Code
+Try to guess Terminal Country Code and Transaction Currency Code in GPO response
+Handle Application Label Tag in P(P)SE DDF
+Get PC/SC error message if available
+
+v0.5.0
+Preliminary refactoring work
+Fixed bit shift bug when parsing SFI in ApplicationElementaryFile
+Fixed bit shift bug in Util.byte2Hex/short2Hex
+Fixed bug in Util.byteArrayToInt
+Fixed bug when reading tag id bytes
+Gracefully handle the case when all terminals are removed when waiting for card insertion
+Don't fail reading if CA public key is missing
+Use char array when passing PIN as argument
+Added IBAN and BIC support (based on a patch by folkyvolk)
+Parse IssuerCountryCodeAlpha3, IssuerIdentificationNumber and IssuerUrl
+
+v0.4.0
+Always transmit Le
+Fixed bug in parsing PPSE record (Thanks to N.Elenkov)
+Don't crash if app processing fails. Just continue to process next app (Thanks to N.Elenkov)
+Fixed bug when attempting to parse non-TLV data as TLV
+Fixed bug in verifying the ICC Public Key Certificate (Thanks to B.Alecu)
+Fixed error in CVRule text (Thanks to T.Crivat)
+Fixed bug in partial selection (Thanks to T.Crivat)
+Make sure Issuer PK is available before attempting to verify ICC PK Cert (Thanks to T.Crivat)
+PCSC class for building control commands
+Set default delay after PowerOn to 150ms
+Update feedback dialog: Unhandled record is not a bug.
+
+v0.3.0
+Implemented transaction log reading and parsing (based on a patch by Thomas Souvignet -FR-)
+Ludovic Rousseau' smart card list is now parsed as UTF-8
+Experimental support for PPSE (Contactless EMV)
+Terminal resident data can now be specified in an external properties file
+Fixed a bug in internalAuthenticate
+Added logic to gracefully handle the case where no PCSC terminals are found
+Added option to submit a bug report if the application terminates unexpectedly
+
+v0.2.0
+fixed bug in Status Word byte to short conversion
+fixed bug in TLV length parsing when length was 0x80
+fixed bug when stripping leading and trailing 0x00/0xff from TLV data
+implemented SignedDynamicApplicationData
+implemented track 2 service code parsing
+implemented Issuer Identifier Number (BIN) lookup
+separated generic iso7816 commands from emv specific commands

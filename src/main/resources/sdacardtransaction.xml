@@ -1,0 +1,262 @@
+<!-- Dummy data used to emulate an EMV card -->
+<!-- If modified, the Signed Static Data needs to be updated -->
+<EMVCard>
+    <ATR>3B 67 00 00 A6 40 40 00 09 90 00</ATR>
+    <!--<MasterFile></MasterFile>-->
+    <DirectoryDefinitionFile name="1PAY.SYS.DDF01">
+            6f 20 <!-- File Control Information (FCI) Template -->
+                  84 0e <!-- Dedicated File (DF) Name -->
+                        31 50 41 59 2e 53 59 53 2e 44 44 46 30 31 <!-- (BINARY) -->
+                  a5 0e <!-- File Control Information (FCI) Proprietary Template -->
+                        88 01 <!-- Short File Identifier (SFI) -->
+                              02 <!-- (BINARY) -->
+                        5f 2d 04 <!-- Language Preference -->
+                                 6e 6f 65 6e <!-- (=noen) -->
+                        9f 11 01 <!-- Issuer Code Table Index -->
+                                 01 <!-- (NUMERIC) -->
+
+    </DirectoryDefinitionFile>
+    <Files>
+        <ElementaryFile sfi="2">
+            <Record number="1">
+                70 23 <!-- Record Template (EMV Proprietary) -->
+                      61 21 <!-- Application Template -->
+                            4f 07 <!-- Application Identifier (AID) - card -->
+                                  a1 23 45 67 89 10 10 <!-- (BINARY) -->
+                            50 04 <!-- Application Label -->
+                                  56 49 53 41 <!-- (=VISA) -->
+                            9f 12 0c <!-- Application Preferred Name -->
+                                     56 49 53 41 20 43 6c 61 73 73 69 63 <!-- (=VISA Classic) -->
+                            87 01 <!-- Application Priority Indicator -->
+                                  02 <!-- (BINARY) -->
+
+            </Record>
+            <Record number="2">
+                70 25 <!-- Record Template (EMV Proprietary) -->
+                      61 23 <!-- Application Template -->
+                            4f 07 <!-- Application Identifier (AID) - card -->
+                                  d5 78 00 00 02 10 10 <!--(BINARY) -->
+                            50 09 <!-- Application Label -->
+                                  62 61 6e 6b 61 78 65 70 74 <!--(=bankaxept) -->
+                            9f 12 09 <!-- Application Preferred Name -->
+                                     62 61 6e 6b 61 78 65 70 74 <!--(=bankaxept) -->
+                            87 01 <!-- Application Priority Indicator -->
+                                  01 <!--(BINARY) -->
+
+            </Record>
+        </ElementaryFile>
+    </Files>
+    <Applications>
+        <Application AID="a1 23 45 67 89 10 10">
+            <PIN>1234</PIN>
+            <ApplicationDefinitionFile>
+                6f 37 <!-- File Control Information (FCI) Template -->
+                      84 07 <!-- Dedicated File (DF) Name -->
+                            a1 23 45 67 89 10 10 <!-- (BINARY) -->
+                      a5 2c <!-- File Control Information (FCI) Proprietary Template -->
+                            50 04 <!-- Application Label -->
+                                  56 49 53 41 <!-- (=VISA) -->
+                            87 01 <!-- Application Priority Indicator -->
+                                  02 <!-- (BINARY) -->
+                            9f 38 06 <!-- Processing Options Data Object List (PDOL) -->
+                                     9f 1a 02 <!-- Terminal Country Code -->
+                                     5f 2a 02 <!-- Transaction Currency Code -->
+                            5f 2d 04 <!-- Language Preference -->
+                                     6e 6f 65 6e <!-- (=noen) -->
+                            9f 11 01 <!-- Issuer Code Table Index -->
+                                     01 <!-- (NUMERIC) -->
+                            9f 12 0c <!-- Application Preferred Name -->
+                                     56 49 53 41 20 43 6c 61 73 73 69 63 <!-- (=VISA Classic) -->
+            </ApplicationDefinitionFile>
+            <Files>
+                <ElementaryFile sfi="1">
+                    <Record number="1">
+                        70 4d <!-- Record Template (EMV Proprietary) -->
+                              9f 1f 18 <!-- [Magnetic Stripe] Track 1 Discretionary Data -->
+                                       32 34 39 35 30 30 30 30 30 30 30 30 30 30 30 31
+                                       30 31 30 30 30 30 30 30 <!-- (=249500000000000101000000) -->
+                              57 13 <!-- Track 2 Equivalent Data -->
+                                    54 11 11 88 88 88 88 82 d1 20 32 01 12 34 56 78
+                                    90 00 0f <!-- (BINARY) -->
+                              5f 20 1a <!-- Cardholder Name -->
+                                       53 4d 49 54 48 2f 4a 4f 48 4e 20 20 20 20 20 20
+                                       20 20 20 20 20 20 20 20 20 20 <!-- (=SMITH/JOHN                ) -->
+
+                    </Record>
+                    <Record number="2">
+                        70 50 <!-- Record Template (EMV Proprietary) -->
+                              5f 24 03 <!-- Application Expiration Date -->
+                                       12 03 31 <!-- (NUMERIC) -->
+                              5f 25 03 <!-- Application Effective Date -->
+                                       09 02 05 <!-- (NUMERIC) -->
+                              5a 08 <!-- Application Primary Account Number (PAN) -->
+                                    54 11 11 88 88 88 88 82 <!-- (NUMERIC) -->
+                              5f 34 01 <!-- Application Primary Account Number (PAN) Sequence Number -->
+                                       01 <!-- (NUMERIC) -->
+                              9f 07 02 <!-- Application Usage Control -->
+                                       ff 00 <!-- (BINARY) -->
+                              8e 12 <!-- Cardholder Verification Method (CVM) List -->
+                                    00 00 00 00 00 00 00 00 42 01 41 03 5e 03 42 03
+                                    1f 00 <!-- (BINARY) -->
+                              9f 0d 05 <!-- Issuer Action Code - Default -->
+                                       f0 20 24 28 00 <!-- (BINARY) -->
+                              9f 0e 05 <!-- Issuer Action Code - Denial -->
+                                       00 50 80 00 00 <!-- (BINARY) -->
+                              9f 0f 05 <!-- Issuer Action Code - Online -->
+                                       f0 28 3c f8 00 <!-- (BINARY) -->
+                              5f 28 02 <!-- Issuer Country Code -->
+                                       05 78 <!-- (NUMERIC) -->
+
+                    </Record>
+                    <Record number="3">
+                        70 47 <!-- Record Template (EMV Proprietary) -->
+                              9f 42 02 <!-- Application Currency Code -->
+                                       05 78 <!-- (NUMERIC) -->
+                              9f 44 01 <!-- Application Currency Exponent -->
+                                       02 <!-- (NUMERIC) -->
+                              9f 08 02 <!-- Application Version Number - card -->
+                                       00 8c <!-- (BINARY) -->
+                              8c 15 <!-- Card Risk Management Data Object List 1 (CDOL1) -->
+                                    9f 02 06 <!-- Amount, Authorised (Numeric) -->
+                                    9f 03 06 <!-- Amount, Other (Numeric) -->
+                                    9f 1a 02 <!-- Terminal Country Code -->
+                                    95 05 <!-- Terminal Verification Results (TVR) -->
+                                    5f 2a 02 <!-- Transaction Currency Code -->
+                                    9a 03 <!-- Transaction Date -->
+                                    9c 01 <!-- Transaction Type -->
+                                    9f 37 04 <!-- Unpredictable Number -->
+                              8d 17 <!-- Card Risk Management Data Object List 2 (CDOL2) -->
+                                    8a 02 <!-- Authorisation Response Code -->
+                                    9f 02 06 <!-- Amount, Authorised (Numeric) -->
+                                    9f 03 06 <!-- Amount, Other (Numeric) -->
+                                    9f 1a 02 <!-- Terminal Country Code -->
+                                    95 05 <!-- Terminal Verification Results (TVR) -->
+                                    5f 2a 02 <!-- Transaction Currency Code -->
+                                    9a 03 <!-- Transaction Date -->
+                                    9c 01 <!-- Transaction Type -->
+                                    9f 37 04 <!-- Unpredictable Number -->
+                              5f 30 02 <!-- Service Code -->
+                                       02 01 <!-- (NUMERIC) -->
+                              9f 4a 01 <!-- Static Data Authentication Tag List -->
+                                       82 <!-- (BINARY) -->
+
+                    </Record>
+                    <Record number="4">
+                        70 81 c0 <!-- Record Template (EMV Proprietary) -->
+                                 8f 01 <!-- Certification Authority Public Key Index - card -->
+                                       07 <!-- (BINARY) -->
+                                 90 81 90 <!-- Issuer Public Key Certificate -->
+                                          04 71 93 ac fb 32 3a bb 95 ac e6 c5 b4 69 27 6d
+                                          b5 93 16 73 cb a2 e0 ee 23 37 9d 02 79 50 b6 c1
+                                          c8 4d 59 e9 aa 7a 54 1b 51 06 0b 0b df 51 4f 44
+                                          40 10 2b ee e8 4c 38 3a ce 13 b0 72 84 4e 97 a6
+                                          5e 0e 69 b1 c8 c5 dc f3 08 b4 26 b8 b3 3d 72 07
+                                          ff 29 a7 7d d5 64 46 ae 8d ba b8 d1 b9 ea 6a 32
+                                          ab 11 64 e7 35 2c 14 6d 0a 61 e6 de b1 ec 2f 91
+                                          25 27 b9 ce df 72 a9 b0 86 3a 9c 45 b4 9a 81 8a
+                                          f4 69 8c 71 c9 72 d2 eb 25 41 84 5e 4d f8 a3 49 <!-- (BINARY) -->
+                                 9f 32 01 <!-- Issuer Public Key Exponent -->
+                                          03 <!-- (BINARY) -->
+                                 92 24 <!-- Issuer Public Key Remainder -->
+                                       5b c8 f7 38 4c 06 dc dc 35 97 51 d1 d4 31 52 0d
+                                       f5 ff 2d 43 47 4a 88 60 3c 9e fc a0 66 6a 1a 42
+                                       bd f0 a4 f5 <!-- (BINARY) -->
+
+                    </Record>
+                    <Record number="5">
+                        70 81 93 <!-- Record Template (EMV Proprietary) -->
+                                 93 81 90 <!-- Signed Static Application Data -->
+                                          41 7c 43 3e 07 08 e7 14 4e ce c1 d3 6b bf 44 09
+                                          2e fe 27 3d aa 24 cb 34 c3 77 9e 4f 29 e7 7f 59
+                                          10 a9 c5 7e 0c bb e3 73 81 93 b3 51 f5 e4 66 18
+                                          75 1f 0a 5f fb 59 c7 76 1f f1 28 8d dd ac a8 86
+                                          9b 61 14 b0 5c 6b 79 e4 d3 2b 97 95 c7 b4 ea e4
+                                          62 17 1b 05 90 7d 67 09 03 4e 58 26 aa 97 a8 d8
+                                          ab 71 c5 70 a5 8d 4a 4a f0 a5 a7 06 5e 7a 22 ec
+                                          9b d3 a0 06 f2 4d 29 40 9c 22 88 87 c8 14 2a f1
+                                          37 da d9 f8 3c 64 96 32 ce ab 8b 3c 1c d1 eb 58 <!-- (BINARY) -->
+
+                    </Record>
+                </ElementaryFile>
+            </Files>
+            <GetDataElements>
+                <ATC>00 79</ATC>
+                <LastOnlineATC>00 67</LastOnlineATC>
+                <PINTryCounter>03</PINTryCounter>
+                <!--<LogFormat></LogFormat>-->
+            </GetDataElements>
+            <GetProcessingOptions>
+                80 0a 5c 00 08 01 01 00 08 02 05 01
+            </GetProcessingOptions>
+        </Application>
+        <Application AID="d5 78 00 00 02 10 10">
+            <PIN>1234</PIN>
+            <ApplicationDefinitionFile>
+                6f 2e <!-- File Control Information (FCI) Template -->
+                      84 07 <!-- Dedicated File (DF) Name -->
+                            d5 78 00 00 02 10 10 <!-- (BINARY) -->
+                      a5 23 <!-- File Control Information (FCI) Proprietary Template -->
+                            50 09 <!-- Application Label -->
+                                  62 61 6e 6b 61 78 65 70 74 <!-- (=bankaxept) -->
+                            87 01 <!-- Application Priority Indicator -->
+                                  01 <!-- (BINARY) -->
+                            5f 2d 02 <!-- Language Preference -->
+                                     6e 6f <!-- (=no) -->
+                            9f 11 01 <!-- Issuer Code Table Index -->
+                                     01 <!-- (NUMERIC) -->
+                            9f 12 09 <!-- Application Preferred Name -->
+                                     62 61 6e 6b 61 78 65 70 74 <!-- (=bankaxept) -->
+
+            </ApplicationDefinitionFile>
+            <Files>
+                <ElementaryFile sfi="1">
+                    <Record number="1">
+                        70 6e <!-- Record Template (EMV Proprietary) -->
+                              5a 09 <!-- Application Primary Account Number (PAN) -->
+                                    95 78 52 64 12 34 56 78 90 <!-- (NUMERIC) -->
+                              5f 34 01 <!-- Application Primary Account Number (PAN) Sequence Number -->
+                                       02 <!-- (NUMERIC) -->
+                              5f 24 03 <!-- Application Expiration Date -->
+                                       12 03 29 <!-- (NUMERIC) -->
+                              57 13 <!-- Track 2 Equivalent Data -->
+                                    95 78 52 64 12 34 56 78 90 d1 20 36 01 12 34 56
+                                    78 90 0f <!-- (BINARY) -->
+                              8c 15 <!-- Card Risk Management Data Object List 1 (CDOL1) -->
+                                    9f 02 06 <!-- Amount, Authorised (Numeric) -->
+                                    9f 03 06 <!-- Amount, Other (Numeric) -->
+                                    9f 1a 02 <!-- Terminal Country Code -->
+                                    95 05 <!-- Terminal Verification Results (TVR) -->
+                                    5f 2a 02 <!-- Transaction Currency Code -->
+                                    9a 03 <!-- Transaction Date -->
+                                    9c 01 <!-- Transaction Type -->
+                                    9f 37 04 <!-- Unpredictable Number -->
+                              8d 17 <!-- Card Risk Management Data Object List 2 (CDOL2) -->
+                                    8a 02 <!-- Authorisation Response Code -->
+                                    9f 02 06 <!-- Amount, Authorised (Numeric) -->
+                                    9f 03 06 <!-- Amount, Other (Numeric) -->
+                                    9f 1a 02 <!-- Terminal Country Code -->
+                                    95 05 <!-- Terminal Verification Results (TVR) -->
+                                    5f 2a 02 <!-- Transaction Currency Code -->
+                                    9a 03 <!-- Transaction Date -->
+                                    9c 01 <!-- Transaction Type -->
+                                    9f 37 04 <!-- Unpredictable Number -->
+                              8e 0a <!-- Cardholder Verification Method (CVM) List -->
+                                    00 00 00 00 00 00 00 00 02 00 <!-- (BINARY) -->
+                              9f 0d 05 <!-- Issuer Action Code - Default -->
+                                       b0 40 04 88 00 <!-- (BINARY) -->
+
+                    </Record>
+                </ElementaryFile>
+            </Files>
+            <GetDataElements>
+                <ATC>01 73</ATC>
+                <LastOnlineATC>01 72</LastOnlineATC>
+                <PINTryCounter>03</PINTryCounter>
+                <!--<LogFormat></LogFormat>-->
+            </GetDataElements>
+            <GetProcessingOptions>
+                80 06 18 00 08 01 01 00
+            </GetProcessingOptions>
+        </Application>
+    </Applications>
+</EMVCard>
