@@ -35,14 +35,29 @@ public class Util {
         throw new UnsupportedOperationException("Not allowed to instantiate");
     }
     
+    private static final String SPACE0 = "";
+    private static final String SPACE2 = "  ";
+    private static final String SPACE4 = "    ";
+    private static final String SPACE6 = "      ";
+    private static final String SPACE8 = "        ";
+    private static final String SPACEA = "          ";
+    
     public static String getSpaces(int length) {
-        StringBuilder buf = new StringBuilder(length);
-
-        for (int i = 0; i < length; i++) {
-            buf.append(" ");
+        switch (length) {
+            case 0: return SAPCE0;
+            case 2: return SAPCE2;
+            case 4: return SAPCE4;
+            case 6: return SAPCE6;
+            case 8: return SAPCE8;
+            case 10: return SAPCEA;
+            default: {
+                StringBuilder buf = new StringBuilder(length);
+                for (int i = 0; i < length; i++) {
+                    buf.append(" ");
+                }
+                return buf.toString();
+            }
         }
-
-        return buf.toString();
     }
 
     public static String prettyPrintHex(String in, int indent, boolean wrapLines) {
@@ -221,7 +236,19 @@ public class Util {
         }
         return buf.toString();
     }
-
+    
+    final protected static char[] hexArray = "0123456789ABCDEF".toCharArray();
+    public static String b2h(byte[] bytes) {
+        int len = bytes.length;
+        char[] hexChars = new char[len * 2];
+        for ( int j = 0; j < len; j++ ) {
+            int v = bytes[j] & 0xFF;
+            hexChars[j * 2] = hexArray[v >>> 4];
+            hexChars[j * 2 + 1] = hexArray[v & 0x0F];
+        }
+        return new String(hexChars);
+    }
+    
     /**
      * Converts a byte array into a hex string.
      * @param byteArray the byte array source
@@ -231,7 +258,7 @@ public class Util {
         if (byteArray == null) {
             return "";
         }
-        return byteArrayToHexString(byteArray, 0, byteArray.length);
+        return b2h(byteArray);
     }
     
     public static String byteArrayToHexString(final byte[] byteArray, int startPos, int length) {
@@ -241,13 +268,7 @@ public class Util {
         if(byteArray.length < startPos+length){
             throw new IllegalArgumentException("startPos("+startPos+")+length("+length+") > byteArray.length("+byteArray.length+")");
         }
-        StringBuilder hexData = new StringBuilder();
-        int onebyte;
-        for (int i = 0; i < length; i++) {
-            onebyte = ((0x000000ff & byteArray[startPos+i]) | 0xffffff00);
-            hexData.append(Integer.toHexString(onebyte).substring(6));
-        }
-        return hexData.toString();
+        return b2h(Arrays.copyOfRange(byteArray, startPos, byteArray.length));
     }
 
     public static String int2Hex(int i) {
@@ -349,6 +370,36 @@ public class Util {
         return value;
     }
 
+    private static int getValue(char c) {
+        switch (c) {
+            case '0' : return 0;
+            case '1' : return 1;
+            case '2' : return 2;
+            case '3' : return 3;
+            case '4' : return 4;
+            case '5' : return 5;
+            case '6' : return 6;
+            case '7' : return 7;
+            case '8' : return 8;
+            case '9' : return 9;
+            case 'a' : return 10;
+            case 'b' : return 11;
+            case 'c' : return 12;
+            case 'd' : return 13;
+            case 'e' : return 14;
+            case 'f' : return 15;
+            case 'A' : return 10;
+            case 'B' : return 11;
+            case 'C' : return 12;
+            case 'D' : return 13;
+            case 'E' : return 14;
+            case 'F' : return 15;
+            default: {
+                throw new IllegalArgumentException();
+            }
+        }
+    }
+
     public static byte[] fromHexString(String encoded) {
         encoded = removeSpaces(encoded);
         if (encoded.length() == 0){
@@ -358,11 +409,8 @@ public class Util {
             throw new IllegalArgumentException("Input string must contain an even number of characters: "+encoded);
         }
         final byte result[] = new byte[encoded.length() / 2];
-        final char enc[] = encoded.toCharArray();
-        for (int i = 0; i < enc.length; i += 2) {
-            StringBuilder curr = new StringBuilder(2);
-            curr.append(enc[i]).append(enc[i + 1]);
-            result[i / 2] = (byte) Integer.parseInt(curr.toString(), 16);
+        for (int i = 0, j = 0; i < encoded.length(); i += 2, j++) {
+            result[j] = (byte) (getValue(encoded.charAt(i))*16 + getValue(encoded.charAt(i+1)));
         }
         return result;
     }
