@@ -47,7 +47,7 @@ public class VISATags {//implements TagProvider {
     public static final Tag SINGLE_TRANSACTION_LIMIT                  = new TagImpl("9f78", TagValueType.BINARY, "VLP Single Transaction Limit", "");
     // 
     public static final Tag VLP_AVAILABLE_FUNDS                       = new TagImpl("9f79", TagValueType.BINARY, "VLP Available Funds", "VLP Available Funds (Decremented during Card Action Analysis for offline approved VLP transactions)");
-    // TODO GP?
+    // 'Visa GP 2.1.1 Card Implementation Requirements version 1.0' on page 22, 3.2.1.2 Card Production Life Cycle
     public static final Tag CPLC_HISTORY_FILE_IDENTIFIERS             = new TagImpl("9f7f", TagValueType.BINARY, "Card Production Life Cycle (CPLC) History File Identifiers", "");
     
     // Log Format TagAndLength found in GET DATA LOG FORMAT on VISA Electron card: Ex 9f8004 with Log value 03 60 60 00
