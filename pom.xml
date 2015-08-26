@@ -381,7 +381,6 @@
             <groupId>com.licel</groupId>
             <artifactId>jcardsim</artifactId>
             <version>2.2.1</version>
-            <classifier>2013-12-12-all</classifier>
         </dependency>
     </dependencies>
 
