@@ -39,6 +39,7 @@ public class CPLC {
     private static final Map<String, Integer> FIELD_NAMES_LENGTHS = new LinkedHashMap<String, Integer>();
     private Map<String, String> fields = new LinkedHashMap<String, String>();
 
+    // 'Visa GP 2.1.1 Card Implementation Requirements version 1.0' on page 22, 3.2.1.2 Card Production Life Cycle
     static {
         FIELD_NAMES_LENGTHS.put("IC Fabricator", 2);
         FIELD_NAMES_LENGTHS.put("IC Type", 2);
